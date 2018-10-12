@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>9f188472-6997-46e2-93ce-b7618306ba56</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>XLabs.Caching.Sqlite.NUnit.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Mocks\SQLite\BlobSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mocks\SQLite\MockBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mocks\SQLite\MockDbHandle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mocks\SQLite\MockDbStatement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mocks\SQLite\MockReflectionService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mocks\SQLite\MockSQLiteApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mocks\SQLite\MockSqlLiteProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLiteSimpleCacheTests.cs" />
+  </ItemGroup>
+</Project>

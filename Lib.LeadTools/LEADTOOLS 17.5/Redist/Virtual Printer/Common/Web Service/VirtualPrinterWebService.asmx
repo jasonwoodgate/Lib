@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="VirtualPrinterWebService.asmx.cs" Class="VirtualPrinterWebService.VirtualPrinterWebService" %>

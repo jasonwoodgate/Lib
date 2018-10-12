@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevExpress.XtraDashboard.v12.2.Web</name>
+    </assembly>
+    <members>
+        <member name="T:DevExpress.XtraDashboard.Web.ASPxDashboardViewerDataLoadingEventArgs">
+
+            <summary>
+                <para>Provides data for the <see cref="E:DevExpress.XtraDashboard.Web.ASPxDashboardViewer.DataLoading"/> event.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Web.ASPxDashboardViewerDataLoadingEventArgs.#ctor(System.String,System.Boolean,System.DateTime)">
+            <summary>
+                <para>Initializes a new instance of the ASPxDashboardViewerDataLoadingEventArgs class.
+</para>
+            </summary>
+            <param name="dataSourceName">
+		@nbsp;
+
+            </param>
+            <param name="isLoaded">
+		@nbsp;
+
+            </param>
+            <param name="lastLoadedTime">
+		@nbsp;
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Web.ASPxDashboardViewerDataLoadingEventArgs.Data">
+            <summary>
+                <para>Gets or sets data for the current data source.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Web.ASPxDashboardViewerDataLoadingEventArgs.DataSourceName">
+            <summary>
+                <para>Gets the name of the currently processed data source.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Web.ASPxDashboardViewerDataLoadingEventArgs.IsLoaded">
+            <summary>
+                <para>Gets whether this data source has already been populated with data. 
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Web.ASPxDashboardViewerDataLoadingEventArgs.LastLoadedTime">
+            <summary>
+                <para>Gets the time at which data was loaded last time.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraDashboard.Web.ASPxDashboardViewer">
+
+            <summary>
+                <para>The Dashboard Viewer.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Web.ASPxDashboardViewer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ASPxDashboardViewer class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraDashboard.Web.ASPxDashboardViewer.ConfigureDataConnection">
+            <summary>
+                <para>Allows you to customize connection settings before the ASPxDashboardViewer connects to a database.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Web.ASPxDashboardViewer.DashboardXmlFile">
+            <summary>
+                <para>Gets or sets the path to an XML file that contains a dashboard.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> that specifies the path to an XML file that contains the dashboard.
+</value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraDashboard.Web.ASPxDashboardViewer.DataLoading">
+            <summary>
+                <para>Allows you to provide data for a data source populated in code.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Web.ASPxDashboardViewer.Dispose">
+            <summary>
+                <para>Enables a server control to perform final clean up before it is released from memory. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Web.ASPxDashboardViewer.FullscreenMode">
+            <summary>
+                <para>Gets or sets whether the ASPxDashboardViewer is in full-screen mode.
+</para>
+            </summary>
+            <value><b>true</b>, if the ASPxDashboardViewer is in the full-screen mode; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraDashboard.Web.ASPxDashboardViewer.GetUserCredentials">
+            <summary>
+                <para>Allows you to provide credentials used to authenticate to the data source.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Web.ASPxDashboardViewer.Images">
+            <summary>
+                <para>Provides access to the settings that define images displayed within dashboard elements.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraDashboard.Web.DashboardViewerImages"/> object that contains image settings.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraDashboard.Web.DashboardViewerImages">
+
+            <summary>
+                <para>Contains images used in the <see cref="T:DevExpress.XtraDashboard.Web.ASPxDashboardViewer"/> UI.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Web.DashboardViewerImages.#ctor(DevExpress.Web.ASPxClasses.Internal.ISkinOwner)">
+            <summary>
+                <para>Initializes a new instance of the DashboardViewerImages class.
+</para>
+            </summary>
+            <param name="owner">
+		@nbsp;
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Web.DashboardViewerImages.ClearMasterFilter">
+            <summary>
+                <para>Gets the image displayed within the Clear Selection button in dashboard item toolbars.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Web.DashboardViewerImages.DrillUp">
+            <summary>
+                <para>Gets the image displayed within the Drill Up button in dashboard item headers.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Web.DashboardViewerImages.OtherElements">
+            <summary>
+                <para>Gets the image displayed within the Other Elements button in dashboard item toolbars.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraDashboard.Web.ASPxDashboardViewerDataLoadingEventHandler">
+
+            <summary>
+                <para>References a method that will handle the <see cref="E:DevExpress.XtraDashboard.Web.ASPxDashboardViewer.DataLoading"/> event.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Web.ASPxDashboardViewerDataLoadingEventHandler.Invoke(System.Object,DevExpress.XtraDashboard.Web.ASPxDashboardViewerDataLoadingEventArgs)">
+            <summary>
+                <para>References a method that will handle the <see cref="E:DevExpress.XtraDashboard.Web.ASPxDashboardViewer.DataLoading"/> event.
+</para>
+            </summary>
+            <param name="sender">
+		The event source.
+
+            </param>
+            <param name="e">
+		The <see cref="T:DevExpress.XtraDashboard.Web.ASPxDashboardViewerDataLoadingEventArgs"/> object that contains event data.
+
+            </param>
+
+
+        </member>
+    </members>
+</doc>

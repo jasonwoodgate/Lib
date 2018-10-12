@@ -1,0 +1,4720 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevExpress.XtraDashboard.v12.2</name>
+    </assembly>
+    <members>
+        <member name="T:DevExpress.XtraDashboard.Commands.DashboardCommandId">
+
+            <summary>
+                <para>Contains identifiers of commands used to control the dashboard.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Commands.DashboardCommandId.#ctor(System.Int32)">
+            <summary>
+                <para>Initializes a new instance of the DashboardCommandId class.
+</para>
+            </summary>
+            <param name="value">
+		@nbsp;
+
+            </param>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ChartRotate">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ChartSeriesType">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ChartShowLegend">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ChartYAxisSettings">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ClearFilter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ContentArrangeInColumns">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ContentArrangeInRows">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ContentArrangementCount">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ContentAutoArrange">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.CrossDataSourceFiltering">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.DeleteDataSource">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.DeleteItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.DrillDown">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.DrillDownOnChartArguments">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.DrillDownOnChartSeries">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.DrillDownOnPieArguments">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.DrillDownOnPieSeries">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.DuplicateItem">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.EditDataSource">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.EditFilter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.EditNames">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Commands.DashboardCommandId.Equals(System.Object)">
+            <summary>
+                <para>Determines whether the current command is equal to the specified one.
+</para>
+            </summary>
+            <param name="obj">
+		@nbsp;
+
+            </param>
+            <returns>@nbsp;
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Commands.DashboardCommandId.Equals(DevExpress.XtraDashboard.Commands.DashboardCommandId)">
+            <summary>
+                <para>Determines whether the current command is equal to the specified one.
+</para>
+            </summary>
+            <param name="other">
+		@nbsp;
+
+            </param>
+            <returns>@nbsp;
+</returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.FilterByChartArguments">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.FilterByChartSeries">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.FilterByPieArguments">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.FilterByPieSeries">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GaugeStyleFullCircular">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GaugeStyleHalfCircular">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GaugeStyleLeftQuarterCircular">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GaugeStyleLinearHorizontal">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GaugeStyleLinearVertical">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GaugeStyleRightQuarterCircular">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GaugeStyleThreeForthCircular">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Commands.DashboardCommandId.GetHashCode">
+            <summary>
+                <para>For internal use.
+</para>
+            </summary>
+            <returns>@nbsp;
+</returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GridBandedRows">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GridColumnHeaders">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GridHorizontalLines">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GridMergeCells">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.GridVerticalLines">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.IgnoreMasterFilters">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageAlignmentBottomCenter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageAlignmentBottomLeft">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageAlignmentBottomRight">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageAlignmentCenterCenter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageAlignmentCenterLeft">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageAlignmentCenterRight">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageAlignmentTopCenter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageAlignmentTopLeft">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageAlignmentTopRight">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageImport">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageLoad">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageSizeModeClip">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageSizeModeSqueeze">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageSizeModeStretch">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ImageSizeModeZoom">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.InsertCards">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.InsertChart">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.InsertGauges">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.InsertGrid">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.InsertImage">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.InsertPies">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.InsertPivot">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.InsertRangeFilter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.InsertTextBox">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.MasterFilter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.NewDashboard">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.NewDataSource">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.None">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.OpenDashboard">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsDataLabels">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsDataLabelsArgument">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsDataLabelsArgumentAndPercent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsDataLabelsArgumentAndValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsDataLabelsArgumentValueAndPercent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsDataLabelsNone">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsDataLabelsPercent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsDataLabelsValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsDataLabelsValueAndPercent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsTooltips">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsTooltipsArgument">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsTooltipsArgumentAndPercent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsTooltipsArgumentAndValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsTooltipsArgumentValueAndPercent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsTooltipsNone">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsTooltipsPercent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsTooltipsValue">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieLabelsTooltipsValueAndPercent">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieStyleDonut">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.PieStylePie">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.RangeFilterSeriesTypeArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.RangeFilterSeriesTypeFullStackedArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.RangeFilterSeriesTypeFullStackedLine">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.RangeFilterSeriesTypeLine">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.RangeFilterSeriesTypeStackedArea">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.RangeFilterSeriesTypeStackedLine">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.Redo">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.SaveAsDashboard">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.SaveDashboard">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.SetDashboardCurrencyCulture">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.ShowCaption">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.TextBoxEditText">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Commands.DashboardCommandId.ToString">
+            <summary>
+                <para>Returns textual representation of the current command.
+</para>
+            </summary>
+            <returns>@nbsp;
+</returns>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Commands.DashboardCommandId.Undo">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.XtraDashboard.DataLoadingEventArgs">
+
+            <summary>
+                <para>Provides data for the <b>DataLoading</b> events of the <see cref="T:DevExpress.XtraDashboard.DashboardDesigner"/> and <see cref="T:DevExpress.XtraDashboard.DashboardViewer"/>.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DataLoadingEventArgs.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the DataLoadingEventArgs class.
+</para>
+            </summary>
+            <param name="dataSourceName">
+		@nbsp;
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.DataLoadingEventArgs.Data">
+            <summary>
+                <para>Gets or sets data for the current data source.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.DataLoadingEventArgs.DataSourceName">
+            <summary>
+                <para>Gets the name of the currently processed data source.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraDashboard.DashboardCommandRepository">
+
+            <summary>
+                <para>Stores commands used to control a <see cref="T:DevExpress.XtraDashboard.DashboardDesigner"/>.
+</para>
+            </summary>
+
+        </member>
+        <member name="T:DevExpress.XtraDashboard.DashboardDesigner">
+
+            <summary>
+                <para>A Dashboard Designer control.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardDesigner.#ctor">
+            <summary>
+                <para>Initializes a new instance of the DashboardDesigner class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.DashboardDesigner.Commands">
+            <summary>
+                <para>Provides access to commands used to control the DashboardDesigner.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraDashboard.DashboardCommandRepository"/> object that defines commands used to control the DashboardDesigner.
+</value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraDashboard.DashboardDesigner.ConfigureDataConnection">
+            <summary>
+                <para>Allows you to customize connection settings before the DashboardDesigner connects to a database.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.DashboardDesigner.ConfirmSaveOnClose">
+            <summary>
+                <para>Gets or sets whether to show the save confirmation dialog when a window that contains the DashboardDesigner is closed.
+</para>
+            </summary>
+            <value><b>true</b> to show the save confirmation dialog when a window that contains the DashboardDesigner is closed; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardDesigner.CreateBars">
+            <summary>
+                <para>Creates and initializes a toolbar menu in the DashboardDesigner's parent control.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardDesigner.CreateRibbon">
+            <summary>
+                <para>Creates and initializes a Ribbon in the DashboardDesigner's parent control.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.DashboardDesigner.Dashboard">
+            <summary>
+                <para>Gets or sets the currently opened dashboard.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.Dashboard"/> object that is the currently opened dashboard.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.DashboardDesigner.DashboardFileName">
+            <summary>
+                <para>Gets the name of the file where the currently opened dashboard is stored.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> that specifies the name of the file where the currently open dashboard is stored.
+</value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraDashboard.DashboardDesigner.DataLoading">
+            <summary>
+                <para>Allows you to provide data for a data source populated in code.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.DashboardDesigner.IsDashboardModified">
+            <summary>
+                <para>Gets whether the dashboard has been modified since the last save.
+
+</para>
+            </summary>
+            <value><b>true</b>, if the dashboard has been modified since last save; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardDesigner.LoadDashboard(System.IO.Stream)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardDesigner.LoadDashboard(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="filePath">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.DashboardDesigner.MenuManager">
+            <summary>
+                <para>Gets or sets the toolbar menu or Ribbon used to control the DashboardDesigner.
+</para>
+            </summary>
+            <value>An object that implements the IDXMenuManager interface.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardDesigner.OpenDashboard(System.String)">
+            <summary>
+                <para>Opens a dashboard from the specified XML file.
+</para>
+            </summary>
+            <param name="filePath">
+		A <see cref="T:System.String"/> that specifies the path to the dashboard file.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.DashboardDesigner.SelectedDataSource">
+            <summary>
+                <para>Gets the currently selected data source.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.DataSource"/> object that specifies the currently selected data source.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardDesigner.ShowSaveConfirmationDialog">
+            <summary>
+                <para>Invokes a save confirmation dialog.
+</para>
+            </summary>
+            <returns><b>true</b> if the DashboardDesigner can be closed; <b>false</b> if an end-user canceled closing the DashboardDesigner.
+</returns>
+
+
+        </member>
+        <member name="T:DevExpress.XtraDashboard.Localization.XtraDashboardStringId">
+
+            <summary>
+                <para>Lists values corresponding to strings that can be localized. 
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.BarDashboardCaption">
+            <summary>
+                <para><b>Default value</b>: Dashboard
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.ChartCannotRenderData">
+            <summary>
+                <para><b>Default value</b>: Specified data cannot be rendered in a chart
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandCardsDrillDownDescription">
+            <summary>
+                <para><b>Default value</b>: First create cards for summary values and drill down to details by clicking the cards.\r\nTo drill up, click the Back button displayed in the item's caption.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandCardsMasterFilterDescription">
+            <summary>
+                <para><b>Default value</b>: When you select cards, other dashboard items show only data that correspond to the card you have selected.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandChartDrillDownOnArgumentsDescription">
+            <summary>
+                <para><b>Default value</b>: First display summary values along the argument axis and drill down to details by clicking data points.\r\n\r\nTo drill up, click the Back button displayed in the item's caption.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandChartDrillDownOnSeriesDescription">
+            <summary>
+                <para><b>Default value</b>: First create series that present summarized data and drill down to details by clicking data points.\r\n\r\nTo drill up, click the Back button displayed in the item's caption.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandChartFilterByArgumentsDescription">
+            <summary>
+                <para><b>Default value</b>: Enable Master Filtering by arguments.\r\n\r\nWhen you select a data point, other dashboard items show only data that correspond to the argument value you have selected.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandChartFilterBySeriesDescription">
+            <summary>
+                <para><b>Default value</b>: Enable Master Filtering by series.\r\n\r\nWhen you select a data point, other dashboard items show only data that correspond to the series to which this data point belongs.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandChartRotateCaption">
+            <summary>
+                <para><b>Default value</b>: Rotate
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandChartRotateDescription">
+            <summary>
+                <para><b>Default value</b>: Rotate the diagram at 90@deg;.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandChartShowLegendCaption">
+            <summary>
+                <para><b>Default value</b>: Show Legend
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandChartShowLegendDescription">
+            <summary>
+                <para><b>Default value</b>: Show the legend that helps end-users identify chart elements.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandChartYAxisSettingsCaption">
+            <summary>
+                <para><b>Default value</b>: Y-Axis Settings
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandChartYAxisSettingsDescription">
+            <summary>
+                <para><b>Default value</b>: Access various Y-axis settings, such as the visibility, title and displayed range.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandClearFilterCaption">
+            <summary>
+                <para><b>Default value</b>: Clear
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandClearFilterDescription">
+            <summary>
+                <para><b>Default value</b>: Reset the filter criterion and turn off filtering.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandContentArrangeInColumnsCaption">
+            <summary>
+                <para><b>Default value</b>: Arrange in Columns
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandContentArrangeInColumnsDescription">
+            <summary>
+                <para><b>Default value</b>: Arrange the elements in the specified number of columns.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandContentArrangeInRowsCaption">
+            <summary>
+                <para><b>Default value</b>: Arrange in Rows
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandContentArrangeInRowsDescription">
+            <summary>
+                <para><b>Default value</b>: Arrange the elements in the specified number of rows.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandContentArrangementCountCaption">
+            <summary>
+                <para><b>Default value</b>: Count
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandContentArrangementCountDescription">
+            <summary>
+                <para><b>Default value</b>: The number of columns or rows.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandContentAutoArrangeCaption">
+            <summary>
+                <para><b>Default value</b>: Auto Arrange
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandContentAutoArrangeDescription">
+            <summary>
+                <para><b>Default value</b>: The number of columns and rows is defined automatically.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandCrossDataSourceFilteringCaption">
+            <summary>
+                <para><b>Default value</b>: Cross-Data-Source Filtering
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandCrossDataSourceFilteringDescription">
+            <summary>
+                <para><b>Default value</b>: Make dashboard items that display data from other data sources affected by this Master Filter. In this instance, filtering is performed if the names of data items match.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDeleteDataSourceCaption">
+            <summary>
+                <para><b>Default value</b>: Delete
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDeleteDataSourceDescription">
+            <summary>
+                <para><b>Default value</b>: Removes the current data source.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDeleteItemCaption">
+            <summary>
+                <para><b>Default value</b>: Delete
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDeleteItemDescription">
+            <summary>
+                <para><b>Default value</b>: Delete the selected dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDimensionSortAscending">
+            <summary>
+                <para><b>Default value</b>: Sort Ascending
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDimensionSortByMe">
+            <summary>
+                <para><b>Default value</b>: (Self)
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDimensionSortDescending">
+            <summary>
+                <para><b>Default value</b>: Sort Descending
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDimensionTopN">
+            <summary>
+                <para><b>Default value</b>: Top N...
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDrillDownCaption">
+            <summary>
+                <para><b>Default value</b>: Drill Down
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDrillDownOnArgumentsCaption">
+            <summary>
+                <para><b>Default value</b>: Drill Down on Arguments
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDrillDownOnSeriesCaption">
+            <summary>
+                <para><b>Default value</b>: Drill Down on Series
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDuplicateItemCaption">
+            <summary>
+                <para><b>Default value</b>: Duplicate
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandDuplicateItemDescription">
+            <summary>
+                <para><b>Default value</b>: Create a copy of the selected dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandEditDataSourceCaption">
+            <summary>
+                <para><b>Default value</b>: Edit
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandEditDataSourceDescription">
+            <summary>
+                <para><b>Default value</b>: Edit the current data source in the Query Designer by including different tables and columns from the current database.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandEditFilterCaption">
+            <summary>
+                <para><b>Default value</b>: Edit Filter
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandEditFilterDescription">
+            <summary>
+                <para><b>Default value</b>: Specify a criterion that defines which data should be displayed within the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandEditNamesCaption">
+            <summary>
+                <para><b>Default value</b>: Edit Names...
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandEditNamesDescription">
+            <summary>
+                <para><b>Default value</b>: Specify names for the dashboard item and data items it contains.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandFilterByArgumentsCaption">
+            <summary>
+                <para><b>Default value</b>: Filter by Arguments
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandFilterBySeriesCaption">
+            <summary>
+                <para><b>Default value</b>: Filter by Series
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugesDrillDownDescription">
+            <summary>
+                <para><b>Default value</b>: First create gauges for summary values and drill down to details by clicking gauges.\r\nTo drill up, click the Back button displayed in the item's caption.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugesMasterFilterDescription">
+            <summary>
+                <para><b>Default value</b>: When you select gauges, other dashboard items show only data that correspond to the gauge you have selected.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleFullCircularCaption">
+            <summary>
+                <para><b>Default value</b>: Full Circular
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleFullCircularDescription">
+            <summary>
+                <para><b>Default value</b>: Display full circular gauges.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleHalfCircularCaption">
+            <summary>
+                <para><b>Default value</b>: Half-Circular
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleHalfCircularDescription">
+            <summary>
+                <para><b>Default value</b>: Display half-circular gauges.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleLeftQuarterCircularCaption">
+            <summary>
+                <para><b>Default value</b>: Left-Quarter Circular
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleLeftQuarterCircularDescription">
+            <summary>
+                <para><b>Default value</b>: Display left-quarter circular gauges.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleLinearHorizontalCaption">
+            <summary>
+                <para><b>Default value</b>: Linear Horizontal
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleLinearHorizontalDescription">
+            <summary>
+                <para><b>Default value</b>: Display horizontal linear gauges.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleLinearVerticalCaption">
+            <summary>
+                <para><b>Default value</b>: Linear Vertical
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleLinearVerticalDescription">
+            <summary>
+                <para><b>Default value</b>: Display vertical linear gauges.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleRightQuarterCircularCaption">
+            <summary>
+                <para><b>Default value</b>: Right-Quarter Circular
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleRightQuarterCircularDescription">
+            <summary>
+                <para><b>Default value</b>: Display right-quarter circular gauges.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleThreeForthCircularCaption">
+            <summary>
+                <para><b>Default value</b>: Three-Forth Circular
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGaugeStyleThreeForthCircularDescription">
+            <summary>
+                <para><b>Default value</b>: Display three-forth circular gauges.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridBandedRowsCaption">
+            <summary>
+                <para><b>Default value</b>: Banded Rows
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridBandedRowsDescription">
+            <summary>
+                <para><b>Default value</b>: Paint the background of even and odd rows differently to make the grid easier to read.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridColumnHeadersCaption">
+            <summary>
+                <para><b>Default value</b>: Column Headers
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridColumnHeadersDescription">
+            <summary>
+                <para><b>Default value</b>: Show column headers.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridDrillDownDescription">
+            <summary>
+                <para><b>Default value</b>: First display summarized data and drill down to details by clicking the rows.\r\n\r\nTo drill up, click the Back button displayed in the item's caption.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridHorizontalLinesCaption">
+            <summary>
+                <para><b>Default value</b>: Horizontal Lines
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridHorizontalLinesDescription">
+            <summary>
+                <para><b>Default value</b>: Show horizontal grid lines.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridMasterFilterDescription">
+            <summary>
+                <para><b>Default value</b>: When you select grid rows, other dashboard items show only data that correspond to the row you have selected.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridMergeCellsCaption">
+            <summary>
+                <para><b>Default value</b>: Merge Cells
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridMergeCellsDescription">
+            <summary>
+                <para><b>Default value</b>: Merge adjacent cells with identical data.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridVerticalLinesCaption">
+            <summary>
+                <para><b>Default value</b>: Vertical Lines
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandGridVerticalLinesDescription">
+            <summary>
+                <para><b>Default value</b>: Show vertical grid lines.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandIgnoreMasterFiltersCaption">
+            <summary>
+                <para><b>Default value</b>: Ignore Master Filters
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandIgnoreMasterFiltersDescription">
+            <summary>
+                <para><b>Default value</b>: Make this dashboard item unaffected by other Master Filters.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentBottomCenterCaption">
+            <summary>
+                <para><b>Default value</b>: Align Bottom Center
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentBottomCenterDescription">
+            <summary>
+                <para><b>Default value</b>: Center image horizontally and align it the bottom of the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentBottomLeftCaption">
+            <summary>
+                <para><b>Default value</b>: Align Bottom Left
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentBottomLeftDescription">
+            <summary>
+                <para><b>Default value</b>: Align image to the bottom left corner of the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentBottomRightCaption">
+            <summary>
+                <para><b>Default value</b>: Align Bottom Right
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentBottomRightDescription">
+            <summary>
+                <para><b>Default value</b>: Align image to the bottom right corner of the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentCaption">
+            <summary>
+                <para><b>Default value</b>: Alignment
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentCenterCenterCaption">
+            <summary>
+                <para><b>Default value</b>: Align Center
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentCenterCenterDescription">
+            <summary>
+                <para><b>Default value</b>: Center text horizontally and vertically within the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentCenterLeftCaption">
+            <summary>
+                <para><b>Default value</b>: Align Center Left
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentCenterLeftDescription">
+            <summary>
+                <para><b>Default value</b>: Center image vertically and align it the left of the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentCenterRightCaption">
+            <summary>
+                <para><b>Default value</b>: Align Center Right
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentCenterRightDescription">
+            <summary>
+                <para><b>Default value</b>: Center image vertically and align it the right of the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentTopCenterCaption">
+            <summary>
+                <para><b>Default value</b>: Align Top Center
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentTopCenterDescription">
+            <summary>
+                <para><b>Default value</b>: Center image horizontally and align it the top of the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentTopLeftCaption">
+            <summary>
+                <para><b>Default value</b>: Align Top Left
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentTopLeftDescription">
+            <summary>
+                <para><b>Default value</b>: Align image to the top left corner of the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentTopRightCaption">
+            <summary>
+                <para><b>Default value</b>: Align Top Right
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageAlignmentTopRightDescription">
+            <summary>
+                <para><b>Default value</b>: Align image to the top right corner of the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageImportCaption">
+            <summary>
+                <para><b>Default value</b>: Import Image
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageImportDescription">
+            <summary>
+                <para><b>Default value</b>: Import an image from a file. The dashboard will store a copy of the image.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageLoadCaption">
+            <summary>
+                <para><b>Default value</b>: Load Image
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageLoadDescription">
+            <summary>
+                <para><b>Default value</b>: Load an image from a file. The dashboard will store the path to the image file and will not store the image itself.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageSizeMode">
+            <summary>
+                <para><b>Default value</b>: Size Mode
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageSizeModeClipCaption">
+            <summary>
+                <para><b>Default value</b>: Clip
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageSizeModeClipDescription">
+            <summary>
+                <para><b>Default value</b>: The image is placed in the upper-left corner of the dashboard item and clipped if necessary.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageSizeModeSqueezeCaption">
+            <summary>
+                <para><b>Default value</b>: Squeeze
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageSizeModeSqueezeDescription">
+            <summary>
+                <para><b>Default value</b>: If the dashboard item's dimensions exceed that of the image it contains, the image is centered and shown full-size. Otherwise, the image is resized to fit into the dashboard item's dimensions.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageSizeModeStretchCaption">
+            <summary>
+                <para><b>Default value</b>: Stretch
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageSizeModeStretchDescription">
+            <summary>
+                <para><b>Default value</b>: The image within the dashboard item is stretched or shrunk as appropriate to fit the size of the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageSizeModeZoomCaption">
+            <summary>
+                <para><b>Default value</b>: Zoom
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandImageSizeModeZoomDescription">
+            <summary>
+                <para><b>Default value</b>: The image is sized proportionally (without clipping), so that it is best fitted to the dashboard item.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertCardsCaption">
+            <summary>
+                <para><b>Default value</b>: Cards
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertCardsDescription">
+            <summary>
+                <para><b>Default value</b>: Create a card dashboard item and insert it into the dashboard.\r\n\r\nThis item displays a series of cards each illustrating the difference between two values. This difference can be expressed in an absolute value, an absolute or percent variation.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertChartCaption">
+            <summary>
+                <para><b>Default value</b>: Chart
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertChartDescription">
+            <summary>
+                <para><b>Default value</b>: Create a chart dashboard item and insert it into the dashboard.\r\n\r\nThe chart visualizes data in an XY-diagram allowing you to render a wide range of diagram types - from simple bar or line charts to financial Open-High-Low-Close graphs.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertGaugesCaption">
+            <summary>
+                <para><b>Default value</b>: Gauges
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertGaugesDescription">
+            <summary>
+                <para><b>Default value</b>: Create a gauge dashboard item and insert it into the dashboard.\r\n\r\nThis item displays a series of gauges. Each gauge can communicate two values - one with a needle and the other with a marker on the scale.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertGridCaption">
+            <summary>
+                <para><b>Default value</b>: Grid
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertGridDescription">
+            <summary>
+                <para><b>Default value</b>: Create a grid dashboard item and insert it into the dashboard.\r\n\r\nThe grid shows data in a tabular form while allowing you to summarize against specific measures or calculate differences between them.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertImageCaption">
+            <summary>
+                <para><b>Default value</b>: Image
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertImageDescription">
+            <summary>
+                <para><b>Default value</b>: Create an image dashboard item and insert it into the dashboard.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertPiesCaption">
+            <summary>
+                <para><b>Default value</b>: Pies
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertPiesDescription">
+            <summary>
+                <para><b>Default value</b>: Create a pie dashboard item and insert it into the dashboard.\r\n\r\nThis item displays a series of pies or donuts that represent the contribution of each value to a total.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertPivotCaption">
+            <summary>
+                <para><b>Default value</b>: Pivot
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertPivotDescription">
+            <summary>
+                <para><b>Default value</b>: Create a pivot grid dashboard item and insert it into the dashboard.\r\n\r\nThe pivot grid displays a cross-tabular report. Use it to present multi-dimensional data in a human-readable way.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertRangeFilterCaption">
+            <summary>
+                <para><b>Default value</b>: Range Filter
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertRangeFilterDescription">
+            <summary>
+                <para><b>Default value</b>: Create a range filter dashboard item and insert it into the dashboard.\r\n\r\nThe Range Filter allows you to apply filtering to other dashboard items. Displays a chart with selection thumbs over it that allow you to filter out values displayed along the argument axis.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertTextBoxCaption">
+            <summary>
+                <para><b>Default value</b>: Text Box
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandInsertTextBoxDescription">
+            <summary>
+                <para><b>Default value</b>: Create a text box dashboard item and insert it into the dashboard.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandMasterFilterCaption">
+            <summary>
+                <para><b>Default value</b>: Master Filter
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandNewDashboardCaption">
+            <summary>
+                <para><b>Default value</b>: New
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandNewDashboardDescription">
+            <summary>
+                <para><b>Default value</b>: Create a new dashboard
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandNewDataSourceCaption">
+            <summary>
+                <para><b>Default value</b>: New Data Source
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandNewDataSourceDescription">
+            <summary>
+                <para><b>Default value</b>: Create a new data source.\r\n\r\nConfigure connection settings using the Create Data Source wizard and compose a data source in the Query Designer.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandNumericFormat">
+            <summary>
+                <para><b>Default value</b>: Format...
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandOpenDashboardCaption">
+            <summary>
+                <para><b>Default value</b>: Open
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandOpenDashboardDescription">
+            <summary>
+                <para><b>Default value</b>: Open a dashboard file
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieDrillDownOnArgumentsDescription">
+            <summary>
+                <para><b>Default value</b>: First break pies into segments that correspond to summarized argument values and drill down to detailed breakdown by clicking these segments.\r\n\r\nTo drill up, click the Back button displayed in the item's caption.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieDrillDownOnSeriesDescription">
+            <summary>
+                <para><b>Default value</b>: First create pies that present summarized data and drill down to detailed data by clicking them.\r\n\r\nTo drill up, click the Back button displayed in the item's caption.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieFilterByArgumentsDescription">
+            <summary>
+                <para><b>Default value</b>: Enable Master Filtering by arguments.\r\n\r\nWhen you select pie segments, other dashboard items show only data that correspond to the segment you have selected.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieFilterBySeriesDescription">
+            <summary>
+                <para><b>Default value</b>: Enable Master Filtering by series.\r\n\r\nWhen you select pies, other dashboard items show only data that correspond to the pie you have selected.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsArgumentAndPercentCaption">
+            <summary>
+                <para><b>Default value</b>: Argument And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsArgumentAndPercentDescription">
+            <summary>
+                <para><b>Default value</b>: Argument And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsArgumentAndValueCaption">
+            <summary>
+                <para><b>Default value</b>: Argument And Value
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsArgumentAndValueDescription">
+            <summary>
+                <para><b>Default value</b>: Argument And Value
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsArgumentCaption">
+            <summary>
+                <para><b>Default value</b>: Argument
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsArgumentDescription">
+            <summary>
+                <para><b>Default value</b>: Argument
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsArgumentValueAndPercentCaption">
+            <summary>
+                <para><b>Default value</b>: Argument, Value And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsArgumentValueAndPercentDescription">
+            <summary>
+                <para><b>Default value</b>: Argument, Value And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsCaption">
+            <summary>
+                <para><b>Default value</b>: Data Labels
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsDescription">
+            <summary>
+                <para><b>Default value</b>: Specify which values should be displayed within data labels.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsNoneCaption">
+            <summary>
+                <para><b>Default value</b>: None
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsNoneDescription">
+            <summary>
+                <para><b>Default value</b>: Do not display data labels
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsPercentCaption">
+            <summary>
+                <para><b>Default value</b>: Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsPercentDescription">
+            <summary>
+                <para><b>Default value</b>: Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsValueAndPercentCaption">
+            <summary>
+                <para><b>Default value</b>: Value And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsValueAndPercentDescription">
+            <summary>
+                <para><b>Default value</b>: Value And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsValueCaption">
+            <summary>
+                <para><b>Default value</b>: Value
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsDataLabelsValueDescription">
+            <summary>
+                <para><b>Default value</b>: Value
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionBottomCaption">
+            <summary>
+                <para><b>Default value</b>: Bottom
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionBottomDescription">
+            <summary>
+                <para><b>Default value</b>: Bottom
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionCaption">
+            <summary>
+                <para><b>Default value</b>: Legend Position
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionDescription">
+            <summary>
+                <para><b>Default value</b>: Select the position of the legend.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionLeftCaption">
+            <summary>
+                <para><b>Default value</b>: Left
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionLeftDescription">
+            <summary>
+                <para><b>Default value</b>: Left
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionNoneCaption">
+            <summary>
+                <para><b>Default value</b>: None
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionNoneDescription">
+            <summary>
+                <para><b>Default value</b>: None
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionRightCaption">
+            <summary>
+                <para><b>Default value</b>: Right
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionRightDescription">
+            <summary>
+                <para><b>Default value</b>: Right
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionTopCaption">
+            <summary>
+                <para><b>Default value</b>: Top
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionTopDescription">
+            <summary>
+                <para><b>Default value</b>: Top
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionTopRightCaption">
+            <summary>
+                <para><b>Default value</b>: TopRight
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsLegendPositionTopRightDescription">
+            <summary>
+                <para><b>Default value</b>: TopRight
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsArgumentAndPercentCaption">
+            <summary>
+                <para><b>Default value</b>: Argument And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsArgumentAndPercentDescription">
+            <summary>
+                <para><b>Default value</b>: Argument And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsArgumentAndValueCaption">
+            <summary>
+                <para><b>Default value</b>: Argument And Value
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsArgumentAndValueDescription">
+            <summary>
+                <para><b>Default value</b>: Argument And Value
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsArgumentCaption">
+            <summary>
+                <para><b>Default value</b>: Argument
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsArgumentDescription">
+            <summary>
+                <para><b>Default value</b>: Argument
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsArgumentValueAndPercentCaption">
+            <summary>
+                <para><b>Default value</b>: Argument, Value And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsArgumentValueAndPercentDescription">
+            <summary>
+                <para><b>Default value</b>: Argument, Value And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsCaption">
+            <summary>
+                <para><b>Default value</b>: Tooltips
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsDescription">
+            <summary>
+                <para><b>Default value</b>: Specify which values should be displayed within tooltips.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsNoneCaption">
+            <summary>
+                <para><b>Default value</b>: None
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsNoneDescription">
+            <summary>
+                <para><b>Default value</b>: None
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsPercentCaption">
+            <summary>
+                <para><b>Default value</b>: Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsPercentDescription">
+            <summary>
+                <para><b>Default value</b>: Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsValueAndPercentCaption">
+            <summary>
+                <para><b>Default value</b>: Value And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsValueAndPercentDescription">
+            <summary>
+                <para><b>Default value</b>: Value And Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsValueCaption">
+            <summary>
+                <para><b>Default value</b>: Value
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieLabelsTooltipsValueDescription">
+            <summary>
+                <para><b>Default value</b>: Value
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieStyleDonutCaption">
+            <summary>
+                <para><b>Default value</b>: Donut
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieStyleDonutDescription">
+            <summary>
+                <para><b>Default value</b>: Display donuts.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieStylePieCaption">
+            <summary>
+                <para><b>Default value</b>: Pie
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandPieStylePieDescription">
+            <summary>
+                <para><b>Default value</b>: Display pies.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeAreaCaption">
+            <summary>
+                <para><b>Default value</b>: Area
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeAreaDescription">
+            <summary>
+                <para><b>Default value</b>: Set the Area type for all series.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeFullStackedAreaCaption">
+            <summary>
+                <para><b>Default value</b>: Full-Stacked Area
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeFullStackedAreaDescription">
+            <summary>
+                <para><b>Default value</b>: Set the Full-Stacked Area type for all series.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeFullStackedLineCaption">
+            <summary>
+                <para><b>Default value</b>: Full-Stacked Line
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeFullStackedLineDescription">
+            <summary>
+                <para><b>Default value</b>: Set the Full-Stacked Line type for all series.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeLineCaption">
+            <summary>
+                <para><b>Default value</b>: Line
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeLineDescription">
+            <summary>
+                <para><b>Default value</b>: Set the Line type for all series.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeStackedAreaCaption">
+            <summary>
+                <para><b>Default value</b>: Stacked Area
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeStackedAreaDescription">
+            <summary>
+                <para><b>Default value</b>: Set the Stacked Area type for all series.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeStackedLineCaption">
+            <summary>
+                <para><b>Default value</b>: Stacked Line
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRangeFilterSeriesTypeStackedLineDescription">
+            <summary>
+                <para><b>Default value</b>: Set the Stacked Line type for all series.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRedoCaption">
+            <summary>
+                <para><b>Default value</b>: Redo
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandRedoDescription">
+            <summary>
+                <para><b>Default value</b>: Redo '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandSaveAsDashboardCaption">
+            <summary>
+                <para><b>Default value</b>: Save As
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandSaveAsDashboardDescription">
+            <summary>
+                <para><b>Default value</b>: Save a copy of the dashboard.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandSaveDashboardCaption">
+            <summary>
+                <para><b>Default value</b>: Save
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandSaveDashboardDescription">
+            <summary>
+                <para><b>Default value</b>: Save the dashboard.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandSetCurrencyCultureCaption">
+            <summary>
+                <para><b>Default value</b>: Currency
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandSetCurrencyCultureDescription">
+            <summary>
+                <para><b>Default value</b>: Specify the currency that will be used to display all currency values in the dashboard by default.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandShowCaptionCaption">
+            <summary>
+                <para><b>Default value</b>: Show Caption
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandShowCaptionDescription">
+            <summary>
+                <para><b>Default value</b>: Show the dashboard item's caption.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandTextBoxEditTextCaption">
+            <summary>
+                <para><b>Default value</b>: Edit
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandTextBoxEditTextDescription">
+            <summary>
+                <para><b>Default value</b>: Edit the content of the text box.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandUndoCaption">
+            <summary>
+                <para><b>Default value</b>: Undo
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CommandUndoDescription">
+            <summary>
+                <para><b>Default value</b>: Undo '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.ConnectingToDatabaseMessage">
+            <summary>
+                <para><b>Default value</b>: Connecting to the database...
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.ConnectionErrorFormDetailPattern">
+            <summary>
+                <para><b>Default value</b>: Connection name: {0}\r\nError message: {1}
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.CurrencyInvariantRegion">
+            <summary>
+                <para><b>Default value</b>: Undefined
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardCurrencyUseCurrentCurrency">
+            <summary>
+                <para><b>Default value</b>: Use client system settings
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardDesignerCaption">
+            <summary>
+                <para><b>Default value</b>: Dashboard Designer
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardDesignerConfirmSaveMessage">
+            <summary>
+                <para><b>Default value</b>: Do you want to save changes to {0}?"
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardDesignerDataReducedMessage">
+            <summary>
+                <para><b>Default value</b>: This dashboard item is bound to a large dataset and\r\ndoes not currently display all data to retain performance.\r\nIn the Dashboard Viewer, all data will be displayed.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardDesignerDefaultDashboardName">
+            <summary>
+                <para><b>Default value</b>: Dashboard
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardDesignerUnableCreateBarsMessage">
+            <summary>
+                <para><b>Default value</b>: Unable to create bars. The Dashboard Designer has not been assigned a parent control
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardDesignerUnableCreateRibbonMessage">
+            <summary>
+                <para><b>Default value</b>: Unable to create a ribbon. The Dashboard Designer has not been assigned a parent control
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardErrorFormDatasourceInitializationText">
+            <summary>
+                <para><b>Default value</b>: The Dashboard Designer was unable to load data into one or several data sources. See information below for details.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardErrorFormFileOpenText">
+            <summary>
+                <para><b>Default value</b>: The following issues occurred when the Dashboard Designer was opening the dashboard file.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardLoadingError">
+            <summary>
+                <para><b>Default value</b>: Unable to load the dashboard because the following file is not available or it is not a valid dashboard file.\r\n{0}\r\nPlease ensure that the application can access this file and that it is valid, or specify a different file.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardOpeningError">
+            <summary>
+                <para><b>Default value</b>: Cannot open the dashboard because the following file is not available.\r\n{0}\r\nPlease ensure that the application can access this file or specify a different file.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardSavingError">
+            <summary>
+                <para><b>Default value</b>: Unable to save the dashboard.\r\nPlease specify a different path or ensure that you have permissions to write to the specified path.\r\n{0}
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DashboardViewerEmptyDesignerMessage">
+            <summary>
+                <para><b>Default value</b>: This Dashboard Viewer is empty. Use the Load Dashboard smart tag to open a dashboard XML file or specify the path to this file via the DashboardUri property.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DataItemCurrencyUseDashboardCurrency">
+            <summary>
+                <para><b>Default value</b>: Use dashboard settings
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatDateTimeFormatDefaultCaption">
+            <summary>
+                <para><b>Default value</b>: Default
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatDateTimeFormatLongCaption">
+            <summary>
+                <para><b>Default value</b>: Long
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatDateTimeFormatShortCaption">
+            <summary>
+                <para><b>Default value</b>: Short
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatDayOfWeekFormatAbbreviatedCaption">
+            <summary>
+                <para><b>Default value</b>: Abbreviated
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatDayOfWeekFormatDefaultCaption">
+            <summary>
+                <para><b>Default value</b>: Default
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatDayOfWeekFormatFullCaption">
+            <summary>
+                <para><b>Default value</b>: Full
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatDayOfWeekFormatNumericCaption">
+            <summary>
+                <para><b>Default value</b>: Numeric
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatMonthFormatAbbreviatedCaption">
+            <summary>
+                <para><b>Default value</b>: Abbreviated
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatMonthFormatDefaultCaption">
+            <summary>
+                <para><b>Default value</b>: Default
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatMonthFormatFullCaption">
+            <summary>
+                <para><b>Default value</b>: Full
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatMonthFormatNumericCaption">
+            <summary>
+                <para><b>Default value</b>: Numeric
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatQuarterFormatDefaultCaption">
+            <summary>
+                <para><b>Default value</b>: Default
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatQuarterFormatFullCaption">
+            <summary>
+                <para><b>Default value</b>: Full
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatQuarterFormatNumericCaption">
+            <summary>
+                <para><b>Default value</b>: Numeric
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatYearFormatAbbreviatedCaption">
+            <summary>
+                <para><b>Default value</b>: Abbreviated
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatYearFormatDefaultCaption">
+            <summary>
+                <para><b>Default value</b>: Default
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DateTimeFormatYearFormatFullCaption">
+            <summary>
+                <para><b>Default value</b>: Full
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DeltaIndicationModeGreaterIsGoodCaption">
+            <summary>
+                <para><b>Default value</b>: Greater is good
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DeltaIndicationModeLessIsGoodCaption">
+            <summary>
+                <para><b>Default value</b>: Less is good
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DeltaIndicationModeNoIndicationCaption">
+            <summary>
+                <para><b>Default value</b>: No indication
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DeltaIndicationModeWarningIfGreaterCaption">
+            <summary>
+                <para><b>Default value</b>: Warning if greater
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DeltaIndicationModeWarningIfLessCaption">
+            <summary>
+                <para><b>Default value</b>: Warning if less
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DeltaThresholdTypeAbsolute">
+            <summary>
+                <para><b>Default value</b>: Absolute
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DeltaThresholdTypePercent">
+            <summary>
+                <para><b>Default value</b>: Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DeltaValueTypeAbsoluteVariationCaption">
+            <summary>
+                <para><b>Default value</b>: Absolute variation
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DeltaValueTypeActualValueCaption">
+            <summary>
+                <para><b>Default value</b>: Actual value
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DeltaValueTypePercentOfTargetCaption">
+            <summary>
+                <para><b>Default value</b>: Percent of target
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DeltaValueTypePercentVariationCaption">
+            <summary>
+                <para><b>Default value</b>: Percent variation
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DesignerActionListCreateBarsTransaction">
+            <summary>
+                <para><b>Default value</b>: Create Bars
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DesignerActionListCreateRibbonTransaction">
+            <summary>
+                <para><b>Default value</b>: Create Ribbon
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DesignerActionMethodCreateBarsItem">
+            <summary>
+                <para><b>Default value</b>: Create Bars
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.DesignerActionMethodCreateRibbonItem">
+            <summary>
+                <para><b>Default value</b>: Create Ribbon
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.FileFilterAll">
+            <summary>
+                <para><b>Default value</b>: All Files
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.FileFilterAllImages">
+            <summary>
+                <para><b>Default value</b>: All Image Files
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.FileFilterDashboards">
+            <summary>
+                <para><b>Default value</b>: Dashboard Files
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemChartRotate">
+            <summary>
+                <para><b>Default value</b>: {0} diagram rotation in '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemChartSeriesType">
+            <summary>
+                <para><b>Default value</b>: Change series type for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemChartShowLegend">
+            <summary>
+                <para><b>Default value</b>: {0} legend visibility for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemChartYAxisSettings">
+            <summary>
+                <para><b>Default value</b>: Change Y axis settings for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemContentArrangement">
+            <summary>
+                <para><b>Default value</b>: Change arrangement settings for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemCrossDataSourceFiltering">
+            <summary>
+                <para><b>Default value</b>: {0} cross-data-source filtering for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDataItemDateTimeFormat">
+            <summary>
+                <para><b>Default value</b>: Set date-time format for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDataItemNumericFormat">
+            <summary>
+                <para><b>Default value</b>: Set numeric format for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDeleteDataSource">
+            <summary>
+                <para><b>Default value</b>: Delete '{0}' data source
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDeleteItem">
+            <summary>
+                <para><b>Default value</b>: Delete '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDimensionGroupInterval">
+            <summary>
+                <para><b>Default value</b>: Set group interval for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDimensionSorting">
+            <summary>
+                <para><b>Default value</b>: Set sorting for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDimensionSortOrder">
+            <summary>
+                <para><b>Default value</b>: Toggle sort order for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDimensionSpecifyTopN">
+            <summary>
+                <para><b>Default value</b>: Set Top N for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDisabling">
+            <summary>
+                <para><b>Default value</b>: Disabling
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDrillDown">
+            <summary>
+                <para><b>Default value</b>: {0} drill-down for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDrillDownOnArguments">
+            <summary>
+                <para><b>Default value</b>: {0} drill-down on arguments for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDrillDownOnSeries">
+            <summary>
+                <para><b>Default value</b>: {0} drill-down on series for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemDuplicateItem">
+            <summary>
+                <para><b>Default value</b>: Create a copy of '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemEditDataSource">
+            <summary>
+                <para><b>Default value</b>: Modify query for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemEditFilter">
+            <summary>
+                <para><b>Default value</b>: Edit filter for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemEditNames">
+            <summary>
+                <para><b>Default value</b>: Edit names within '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemEnabling">
+            <summary>
+                <para><b>Default value</b>: Enabling
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemFilterByArgument">
+            <summary>
+                <para><b>Default value</b>: {0} filtering by argument for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemFilterBySeries">
+            <summary>
+                <para><b>Default value</b>: {0} filtering by series for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemGaugeRange">
+            <summary>
+                <para><b>Default value</b>: Change settings for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemGaugeViewType">
+            <summary>
+                <para><b>Default value</b>: Change gauge view type for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemGridBandedRows">
+            <summary>
+                <para><b>Default value</b>: {0} banded rows for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemGridColumnHeaders">
+            <summary>
+                <para><b>Default value</b>: {0} column headers visibility for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemGridColumnOptions">
+            <summary>
+                <para><b>Default value</b>: Change column options for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemGridHorizontalLines">
+            <summary>
+                <para><b>Default value</b>: {0} horizontal grid lines visibility for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemGridMergeCells">
+            <summary>
+                <para><b>Default value</b>: {0} cell merging for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemGridVerticalLines">
+            <summary>
+                <para><b>Default value</b>: {0} vertical grid lines visibility for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemIgnoreMasterFilters">
+            <summary>
+                <para><b>Default value</b>: {0} ignoring of Master Filters for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemImageAlignment">
+            <summary>
+                <para><b>Default value</b>: Change alignment for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemImageOpen">
+            <summary>
+                <para><b>Default value</b>: Load image to '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemImageSizeMode">
+            <summary>
+                <para><b>Default value</b>: Change size mode for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemInsertItem">
+            <summary>
+                <para><b>Default value</b>: Insert '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemLayoutChanged">
+            <summary>
+                <para><b>Default value</b>: Layout changed
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemMasterFilter">
+            <summary>
+                <para><b>Default value</b>: {0} Master Filter for '{1}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemMeasureSummaryType">
+            <summary>
+                <para><b>Default value</b>: Set summary type for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemModifyBindings">
+            <summary>
+                <para><b>Default value</b>: Modify bindings for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemNewDataSource">
+            <summary>
+                <para><b>Default value</b>: Create '{0}' data source
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemPieLabelContentType">
+            <summary>
+                <para><b>Default value</b>: Change data labels content for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemPieLegendPosition">
+            <summary>
+                <para><b>Default value</b>: Change legend position in '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemPieStyle">
+            <summary>
+                <para><b>Default value</b>: Change pie style for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemPieTooltipContentType">
+            <summary>
+                <para><b>Default value</b>: Change tooltips content for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemRangeFilterSeriesType">
+            <summary>
+                <para><b>Default value</b>: Change series type for all series in '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemSetCurrencyCulture">
+            <summary>
+                <para><b>Default value</b>: Change the dashboard's currency culture
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemShowCaption">
+            <summary>
+                <para><b>Default value</b>: Show@#47;Hide caption for '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.HistoryItemTextBoxEditText">
+            <summary>
+                <para><b>Default value</b>: Edit text in '{0}'
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.ImageCorruptedMessage">
+            <summary>
+                <para><b>Default value</b>: The image file is corrupted.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.ImageFileCorruptedMessage">
+            <summary>
+                <para><b>Default value</b>: An image file is corrupted.\r\nURL: {0}
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.ImageGeneralExceptionMessage">
+            <summary>
+                <para><b>Default value</b>: Cannot open an image file at the following path:\r\n{0}
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.ImageNotFoundMessage">
+            <summary>
+                <para><b>Default value</b>: Cannot find an image file. This file may have been renamed, moved, or deleted.\r\nURL: {0}
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.ImageWrongFormatMessage">
+            <summary>
+                <para><b>Default value</b>: The selected image file is corrupted.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.JoinEditorEmptyColumnText">
+            <summary>
+                <para><b>Default value</b>: @lt;Select a column@gt;
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.JoinEditorEmptyTableText">
+            <summary>
+                <para><b>Default value</b>: @lt;Select a table@gt;
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.JoinEditorEqualOperator">
+            <summary>
+                <para><b>Default value</b>: Equals to
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.JoinEditorFillAllFieldsException">
+            <summary>
+                <para><b>Default value</b>: Some fields are empty. Please fill all empty fields or remove the corresponding conditions to proceed.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.JoinEditorGreaterOperator">
+            <summary>
+                <para><b>Default value</b>: Is greater than
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.JoinEditorGreaterOrEqualOperator">
+            <summary>
+                <para><b>Default value</b>: Is greater than or equal to
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.JoinEditorLessOperator">
+            <summary>
+                <para><b>Default value</b>: Is less than
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.JoinEditorLessOrEqualOperator">
+            <summary>
+                <para><b>Default value</b>: Is less than or equal to
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.JoinEditorNotEqualOperator">
+            <summary>
+                <para><b>Default value</b>: Does not equal to
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.MenuDateTimeFormatFormat">
+            <summary>
+                <para><b>Default value</b>: Format
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.MenuDimensionSortBy">
+            <summary>
+                <para><b>Default value</b>: Sort by
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.MenuMore">
+            <summary>
+                <para><b>Default value</b>: More
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.MessageBoxErrorTitle">
+            <summary>
+                <para><b>Default value</b>: Error
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.MessageBoxWarningTitle">
+            <summary>
+                <para><b>Default value</b>: Warning
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.MessageConfirmUnpinnedItemsRemove">
+            <summary>
+                <para><b>Default value</b>: Are you sure you want to remove all unpinned items from the list?
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.MessageDashboardItemAlreadyExists">
+            <summary>
+                <para><b>Default value</b>: A dashboard item with the {0} name already exists. Please specify a different item name.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.MessageFileNotFound">
+            <summary>
+                <para><b>Default value</b>: This file could not be found.\r\n({0})
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.MessageNullDashboard">
+            <summary>
+                <para><b>Default value</b>: The Dashboard property cannot be set to null.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.NumericFormatFormatTypeAutoCaption">
+            <summary>
+                <para><b>Default value</b>: Auto
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.NumericFormatFormatTypeCurrencyCaption">
+            <summary>
+                <para><b>Default value</b>: Currency
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.NumericFormatFormatTypeGeneralCaption">
+            <summary>
+                <para><b>Default value</b>: General
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.NumericFormatFormatTypeNumberCaption">
+            <summary>
+                <para><b>Default value</b>: Number
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.NumericFormatFormatTypePercentCaption">
+            <summary>
+                <para><b>Default value</b>: Percent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.NumericFormatFormatTypeScientificCaption">
+            <summary>
+                <para><b>Default value</b>: Scientific
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.NumericFormatUnitAutoCaption">
+            <summary>
+                <para><b>Default value</b>: Auto
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.NumericFormatUnitBillionsCaption">
+            <summary>
+                <para><b>Default value</b>: Billions
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.NumericFormatUnitMillionsCaption">
+            <summary>
+                <para><b>Default value</b>: Millions
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.NumericFormatUnitOnesCaption">
+            <summary>
+                <para><b>Default value</b>: Ones
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.NumericFormatUnitThousandsCaption">
+            <summary>
+                <para><b>Default value</b>: Thousands
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.PasswordFormDatabase">
+            <summary>
+                <para><b>Default value</b>: Database = {0}
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.PasswordFormProvider">
+            <summary>
+                <para><b>Default value</b>: Provider = {0}
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.PasswordFormServer">
+            <summary>
+                <para><b>Default value</b>: Server = {0}
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.QueryDesignControlAliasAlreadyExists">
+            <summary>
+                <para><b>Default value</b>: The specified alias already exists. Do you want to correct the value?
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.QueryDesignControlDataPreviewCaption">
+            <summary>
+                <para><b>Default value</b>: Data Preview (First 1000 Rows Displayed)
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.QueryDesignControlExpressionChanged">
+            <summary>
+                <para><b>Default value</b>: This action will reset the SQL expression, and all your changes will be discarded. Do you wish to continue?
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.QueryDesignControlNoSelection">
+            <summary>
+                <para><b>Default value</b>: No column has been selected. Please select at least one column to proceed.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.QueryDesignControlRemoveTables">
+            <summary>
+                <para><b>Default value</b>: The following tables will be removed from the query.\r\n\r\n{0}\r\nDo you wish to continue?
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.QueryDesignControlTableNameAlreadyExists">
+            <summary>
+                <para><b>Default value</b>: A table with the specified name already exists. Please specify a different table name.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.QueryDesignControlTableNameEmpty">
+            <summary>
+                <para><b>Default value</b>: The table name cannot be empty.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RecentBarButtonItemClearFilesCommand">
+            <summary>
+                <para><b>Default value</b>: @amp;Clear unpinned dashboards
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RecentBarButtonItemClearFoldersCommand">
+            <summary>
+                <para><b>Default value</b>: @amp;Clear unpinned folders
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RecentBarButtonItemOpenCommand">
+            <summary>
+                <para><b>Default value</b>: @amp;Open
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RecentBarButtonItemPinCommand">
+            <summary>
+                <para><b>Default value</b>: Pin
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RecentBarButtonItemRemoveCommand">
+            <summary>
+                <para><b>Default value</b>: @amp;Remove from list
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RecentBarButtonItemUnpinCommand">
+            <summary>
+                <para><b>Default value</b>: Unpin
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RecentDashboardsCaption">
+            <summary>
+                <para><b>Default value</b>: Recent
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RecentItemsMenuEmptyText">
+            <summary>
+                <para><b>Default value</b>: To browse for a dashboard, click Open.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RedoText">
+            <summary>
+                <para><b>Default value</b>: Redo
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupChartLayoutCaption">
+            <summary>
+                <para><b>Default value</b>: Layout
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupChartSeriesTypeCaption">
+            <summary>
+                <para><b>Default value</b>: Series Type
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupContentArrangementCaption">
+            <summary>
+                <para><b>Default value</b>: Content Arrangement
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupDataSourceCaption">
+            <summary>
+                <para><b>Default value</b>: Data Source
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupDrillDownCaption">
+            <summary>
+                <para><b>Default value</b>: Drill-Down
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupFileCaption">
+            <summary>
+                <para><b>Default value</b>: File
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupFilteringCaption">
+            <summary>
+                <para><b>Default value</b>: Filtering
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupFormatCaption">
+            <summary>
+                <para><b>Default value</b>: Format
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupGaugeStyleCaption">
+            <summary>
+                <para><b>Default value</b>: Style
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupGridCellsCaption">
+            <summary>
+                <para><b>Default value</b>: Cells
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupHistoryCaption">
+            <summary>
+                <para><b>Default value</b>: History
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupImageAlignmentCaption">
+            <summary>
+                <para><b>Default value</b>: Alignment
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupImageOpenCaption">
+            <summary>
+                <para><b>Default value</b>: Open
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupImageSizeModeCaption">
+            <summary>
+                <para><b>Default value</b>: Size Mode
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupInsertCaption">
+            <summary>
+                <para><b>Default value</b>: Insert
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupItemsCaption">
+            <summary>
+                <para><b>Default value</b>: Items
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupMasterFilterCaption">
+            <summary>
+                <para><b>Default value</b>: Master Filter
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupPieLabelsCaption">
+            <summary>
+                <para><b>Default value</b>: Labels
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupPieStyleCaption">
+            <summary>
+                <para><b>Default value</b>: Style
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupRangeFilterSeriesTypeCaption">
+            <summary>
+                <para><b>Default value</b>: Series Type
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupSkinsCaption">
+            <summary>
+                <para><b>Default value</b>: Skins
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonGroupTextBoxSettingsCaption">
+            <summary>
+                <para><b>Default value</b>: Settings
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageCategoryCardsToolsName">
+            <summary>
+                <para><b>Default value</b>: Cards Tools
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageCategoryChartToolsName">
+            <summary>
+                <para><b>Default value</b>: Chart Tools
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageCategoryGaugesToolsName">
+            <summary>
+                <para><b>Default value</b>: Gauges Tools
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageCategoryGridToolsName">
+            <summary>
+                <para><b>Default value</b>: Grid Tools
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageCategoryImageToolsName">
+            <summary>
+                <para><b>Default value</b>: Image Tools
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageCategoryPiesToolsName">
+            <summary>
+                <para><b>Default value</b>: Pies Tools
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageCategoryPivotToolsName">
+            <summary>
+                <para><b>Default value</b>: Pivot Tools
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageCategoryRangeFilterToolsName">
+            <summary>
+                <para><b>Default value</b>: Range Filter Tools
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageCategoryTextBoxToolsName">
+            <summary>
+                <para><b>Default value</b>: Text Box Tools
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageDashboardCaption">
+            <summary>
+                <para><b>Default value</b>: Dashboard
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageDataCaption">
+            <summary>
+                <para><b>Default value</b>: Data
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageImageOptionsCaption">
+            <summary>
+                <para><b>Default value</b>: Options
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageLayoutAndStyleCaption">
+            <summary>
+                <para><b>Default value</b>: Layout @amp; Style
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageRangeFilterStyleCaption">
+            <summary>
+                <para><b>Default value</b>: Style
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.RibbonPageTextBoxFormatCaption">
+            <summary>
+                <para><b>Default value</b>: Format
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.TooltipGroupByType">
+            <summary>
+                <para><b>Default value</b>: Group Fields by Type
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.TooltipSortAscending">
+            <summary>
+                <para><b>Default value</b>: Sort Fields A to Z
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.TooltipSortDescending">
+            <summary>
+                <para><b>Default value</b>: Sort Fields Z to A
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.UndoRedoActionsCount">
+            <summary>
+                <para><b>Default value</b>: {0} {1} Actions
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.UndoRedoSingleAction">
+            <summary>
+                <para><b>Default value</b>: {0} {1} Action
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.UndoText">
+            <summary>
+                <para><b>Default value</b>: Undo
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.WizardCannotConnectMessage">
+            <summary>
+                <para><b>Default value</b>: Cannot connect to the database. See the details below.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.WizardCannotRetrieveDatabasesMessage">
+            <summary>
+                <para><b>Default value</b>: Cannot retrieve the list of available databases. See the details below.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.WizardCustomConnectionString">
+            <summary>
+                <para><b>Default value</b>: Custom connection string
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.WizardDataConnectionNameExistsMessage">
+            <summary>
+                <para><b>Default value</b>: A data connection with the specified name already exists. Please specify a different connection name.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.WizardDataSourceCreatedMessage">
+            <summary>
+                <para><b>Default value</b>: Data source has been created successfully
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraDashboard.Localization.XtraDashboardStringId.WizardDataSourceNameExistsMessage">
+            <summary>
+                <para><b>Default value</b>: @lt;b@gt;A data source with the specified name already exists@lt;@#47;b@gt;
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.XtraDashboard.DashboardViewer">
+
+            <summary>
+                <para>A Dashboard Viewer control.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardViewer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the DashboardViewer class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardViewer.#ctor(System.ComponentModel.IContainer)">
+            <summary>
+                <para>Initializes a new instance of the DashboardViewer class with the specified container.
+
+</para>
+            </summary>
+            <param name="container">
+		An object implementing the <see cref="T:System.ComponentModel.IContainer"/> interface which specifies the owner container of a DashboardViewer class instance.
+
+            </param>
+
+
+        </member>
+        <member name="E:DevExpress.XtraDashboard.DashboardViewer.ConfigureDataConnection">
+            <summary>
+                <para>Allows you to customize connection settings before the DashboardViewer connects to a database.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.DashboardViewer.Dashboard">
+            <summary>
+                <para>Gets or sets the currently opened dashboard.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.DashboardCommon.Dashboard"/> object that is the currently opened dashboard.
+</value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraDashboard.DashboardViewer.DashboardChanged">
+            <summary>
+                <para>Occurs after a dashboard has been opened.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.DashboardViewer.DashboardUri">
+            <summary>
+                <para>Gets or sets the URI of the dashboard.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Uri"/> object that specifies the URI of the dashboard.
+</value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraDashboard.DashboardViewer.DataLoading">
+            <summary>
+                <para>Allows you to provide data for a data source populated in code.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraDashboard.DashboardViewer.GetUserCredentials">
+            <summary>
+                <para>Allows you to provide credentials used to authenticate to the data source.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardViewer.LoadDashboard(System.IO.Stream)">
+            <summary>
+                <para>Loads a dashboard from a stream.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> object that contains the dashboard.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardViewer.LoadDashboard(System.String)">
+            <summary>
+                <para>Loads a dashboard from an XML file.
+</para>
+            </summary>
+            <param name="filePath">
+		A <see cref="T:System.String"/> that specifies the path to an XML file that contains the dashboard.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardViewer.ReloadData">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DashboardViewer.UpdateData">
+            <summary>
+                <para>Updates data in all data sources.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.XtraDashboard.DataLoadingEventHandler">
+
+            <summary>
+                <para>References a method that will handle the <b>DataLoading</b> event for the <see cref="T:DevExpress.XtraDashboard.DashboardDesigner"/> or <see cref="T:DevExpress.XtraDashboard.DashboardViewer"/>.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.DataLoadingEventHandler.Invoke(System.Object,DevExpress.XtraDashboard.DataLoadingEventArgs)">
+            <summary>
+                <para>References a method that will handle the <b>DataLoading</b> event for the <see cref="T:DevExpress.XtraDashboard.DashboardDesigner"/> or <see cref="T:DevExpress.XtraDashboard.DashboardViewer"/>.
+</para>
+            </summary>
+            <param name="sender">
+		The event source.
+
+            </param>
+            <param name="e">
+		A <see cref="T:DevExpress.XtraDashboard.DataLoadingEventArgs"/> object that contains event data.
+
+            </param>
+
+
+        </member>
+        <member name="T:DevExpress.XtraDashboard.Localization.XtraDashboardResLocalizer">
+
+            <summary>
+                <para>Provides localized strings for the <see cref="T:DevExpress.XtraDashboard.DashboardDesigner"/> and <see cref="T:DevExpress.XtraDashboard.DashboardViewer"/> user interface elements.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Localization.XtraDashboardResLocalizer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the XtraDashboardResLocalizer class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Localization.XtraDashboardResLocalizer.GetLocalizedString(DevExpress.XtraDashboard.Localization.XtraDashboardStringId)">
+            <summary>
+                <para>Gets the string, localized by the current XtraDashboardResLocalizer, for the specified user interface element.
+</para>
+            </summary>
+            <param name="id">
+		A <see cref="T:DevExpress.DashboardCommon.Localization.DashboardStringId"/> enumeration value specifying the UI element whose caption (text) is to be localized.
+
+            </param>
+            <returns>A <see cref="T:System.String"/> representing the text to be displayed within the specified UI element.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Localization.XtraDashboardResLocalizer.Language">
+            <summary>
+                <para>Gets  the name of the language currently used by this localizer object.
+
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> specifying the language used to localize the user interface.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraDashboard.Localization.XtraDashboardLocalizer">
+
+            <summary>
+                <para>Provides localized strings for the <see cref="T:DevExpress.XtraDashboard.DashboardDesigner"/> and <see cref="T:DevExpress.XtraDashboard.DashboardViewer"/> user interface elements.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Localization.XtraDashboardLocalizer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the XtraDashboardLocalizer class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraDashboard.Localization.XtraDashboardLocalizer.Active">
+            <summary>
+                <para>Gets or sets a localizer object providing localization of the user interface at runtime.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Localization.XtraDashboardLocalizer.CreateResXLocalizer">
+            <summary>
+                <para>Returns an <b>XtraLocalizer</b> object representing resources based on the thread's language and regional settings (culture).
+</para>
+            </summary>
+            <returns>@nbsp;
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraDashboard.Localization.XtraDashboardLocalizer.GetString(DevExpress.XtraDashboard.Localization.XtraDashboardStringId)">
+            <summary>
+                <para>Gets the string, localized by the current XtraDashboardLocalizer, for the specified user interface element.
+</para>
+            </summary>
+            <param name="id">
+		A <see cref="T:DevExpress.DashboardCommon.Localization.DashboardStringId"/> enumeration value specifying the UI element whose caption (text) is to be localized.
+
+            </param>
+            <returns>A <see cref="T:System.String"/> representing the text to be displayed within the specified UI element.
+</returns>
+
+
+        </member>
+    </members>
+</doc>

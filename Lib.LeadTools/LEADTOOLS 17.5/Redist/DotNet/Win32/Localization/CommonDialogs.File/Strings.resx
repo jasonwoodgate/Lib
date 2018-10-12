@@ -1,0 +1,1997 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OpenOk" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="OpenCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="OpenHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="OpenPreviewNotAvailable" xml:space="preserve">
+    <value>Preview not available</value>
+  </data>
+  <data name="OpenFileInfoToolTip" xml:space="preserve">
+    <value>File Info</value>
+  </data>
+  <data name="OpenPreviewSelectedFileToolTip" xml:space="preserve">
+    <value>Preview Selected File</value>
+  </data>
+  <data name="OpenPreviewPage" xml:space="preserve">
+    <value>Pa&amp;ge:</value>
+  </data>
+  <data name="OpenDeletePage" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="OpenLookin" xml:space="preserve">
+    <value>Look &amp;in</value>
+  </data>
+  <data name="OpenFileName" xml:space="preserve">
+    <value>File &amp;name:</value>
+  </data>
+  <data name="OpenFilesoftype" xml:space="preserve">
+    <value>Files of &amp;type:</value>
+  </data>
+  <data name="OpenShowOptionsonOpen" xml:space="preserve">
+    <value>&amp;Show Options dialog on open</value>
+  </data>
+  <data name="OpenDeletePageMessageBody" xml:space="preserve">
+    <value>Delete page %d?</value>
+  </data>
+  <data name="OpenDeletePageMessageTitle" xml:space="preserve">
+    <value>Delete Page</value>
+  </data>
+  <data name="OpenErrorDeletingMessageBody" xml:space="preserve">
+    <value>Error Deleting Page!</value>
+  </data>
+  <data name="OpenFileInfoErrorMessageBody" xml:space="preserve">
+    <value>Information not available for %s</value>
+  </data>
+  <data name="OpenFileInfoErrorMessageTitle" xml:space="preserve">
+    <value>FileInfo Error</value>
+  </data>
+  <data name="FileInformationCaption" xml:space="preserve">
+    <value>File Information</value>
+  </data>
+  <data name="FileInformationItem" xml:space="preserve">
+    <value>Item:</value>
+  </data>
+  <data name="FileInformationValue" xml:space="preserve">
+    <value>Value:</value>
+  </data>
+  <data name="FileInformationFormat" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="FileInformationName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="FileInformationWidth" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="FileInformationHeight" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="FileInformationBitsPerPixel" xml:space="preserve">
+    <value>Bits per pixel</value>
+  </data>
+  <data name="FileInformationSizeOnDisk" xml:space="preserve">
+    <value>Size on disk</value>
+  </data>
+  <data name="FileInformationSizeInMemory" xml:space="preserve">
+    <value>Size in memory</value>
+  </data>
+  <data name="FileInformationCompression" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="FileInformationPage" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="FileInformationArtist" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="FileInformationCopyright" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="FileInformationDateTime" xml:space="preserve">
+    <value>Date/Time</value>
+  </data>
+  <data name="FileInformationDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="FileInformationHostComputer" xml:space="preserve">
+    <value>Host Computer</value>
+  </data>
+  <data name="FileInformationMake" xml:space="preserve">
+    <value>Make</value>
+  </data>
+  <data name="FileInformationTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="FileInformationModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="FileInformationMisc" xml:space="preserve">
+    <value>Misc</value>
+  </data>
+  <data name="FileInformationNameofDocument" xml:space="preserve">
+    <value>Name of Document</value>
+  </data>
+  <data name="FileInformationNameofPage" xml:space="preserve">
+    <value>Name of Page</value>
+  </data>
+  <data name="FileInformationSoftware" xml:space="preserve">
+    <value>Software</value>
+  </data>
+  <data name="FileInformationXResolutionDPI" xml:space="preserve">
+    <value>XResolution (DPI)</value>
+  </data>
+  <data name="FileInformationYResolutionDPI" xml:space="preserve">
+    <value>YResolution (DPI)</value>
+  </data>
+  <data name="FileInformationOriginalPageSize" xml:space="preserve">
+    <value>Original page size:</value>
+  </data>
+  <data name="FileInformationDocumentUnitPixel" xml:space="preserve">
+    <value>pixels</value>
+  </data>
+   <data name="FileInformationDocumentUnitInch" xml:space="preserve">
+    <value>inches</value>
+  </data>
+   <data name="FileInformationDocumentUnitMillimeter" xml:space="preserve">
+    <value>millimeters</value>
+  </data>
+  <data name="FileInformationWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="FileInformationDisclaimer" xml:space="preserve">
+    <value>Disclaimer</value>
+  </data>
+  <data name="FileInformationClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FileInformationHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="LoadOptionsCaption" xml:space="preserve">
+    <value>File Load Option</value>
+  </data>
+  <data name="LoadOptionsOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="LoadOptionsCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="LoadOptionsHelp" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="LoadOptionsFullPath" xml:space="preserve">
+    <value>&amp;Full Path</value>
+  </data>
+  <data name="LoadOptionsGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="LoadOptionsGeneralProressivePasses" xml:space="preserve">
+    <value>Pro&amp;gressive Passes:</value>
+  </data>
+  <data name="LoadOptionsGeneralPassesAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="LoadOptionsGeneralPassesMeaningfulOnly" xml:space="preserve">
+    <value>MeaningfulOnly</value>
+  </data>
+  <data name="LoadOptionsGeneralPasses1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LoadOptionsGeneralPasses2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LoadOptionsGeneralPasses3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LoadOptionsGeneralPasses4" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LoadOptionsGeneralPasses5" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LoadOptionsGeneralPasses6" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LoadOptionsGeneralPasses7" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LoadOptionsGeneralPasses8" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="LoadOptionsGeneralPasses9" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="LoadOptionsGeneralPasses10" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="LoadOptionsGeneralLoadRotated" xml:space="preserve">
+    <value>Load &amp;Rotated</value>
+  </data>
+  <data name="LoadOptionsGeneralLoadCompressed" xml:space="preserve">
+    <value>Load &amp;Compressed</value>
+  </data>
+  <data name="LoadOptionsGeneralPageNo" xml:space="preserve">
+    <value>Pag&amp;e No.:</value>
+  </data>
+  <data name="LoadOptionsResolution" xml:space="preserve">
+    <value>Resolution</value>
+  </data>
+  <data name="LoadOptionsRasterDpi" xml:space="preserve">
+    <value>&amp;DPI:</value>
+  </data>
+  <data name="LoadOptionsRasterResolution" xml:space="preserve">
+    <value>&amp;Resolution:</value>
+  </data>
+  <data name="LoadOptionsRasterWidth" xml:space="preserve">
+    <value>&amp;Width:</value>
+  </data>
+  <data name="LoadOptionsRasterHeight" xml:space="preserve">
+    <value>&amp;Height:</value>
+  </data>
+  <data name="LoadOptionsRasterNoResolutions" xml:space="preserve">
+    <value>No Resolutions Available</value>
+  </data>
+  <data name="LoadOptionsNotImageFormatFile" xml:space="preserve">
+    <value>Not Image Format File</value>
+  </data>
+  <data name="LoadOptionsNoOptions" xml:space="preserve">
+    <value>No Option</value>
+  </data>
+  <data name="LoadOptionsPdf" xml:space="preserve">
+    <value>Pdf</value>
+  </data>
+  <data name="LoadOptionsPdfResolutionDpi" xml:space="preserve">
+    <value>Resolution ( Dpi )</value>
+  </data>
+  <data name="LoadOptionsPdfHorizontal" xml:space="preserve">
+    <value>&amp;Horizontal:</value>
+  </data>
+  <data name="LoadOptionsPdfVertical" xml:space="preserve">
+    <value>&amp;Vertical:</value>
+  </data>
+  <data name="LoadOptionsPdfDisplayDepth" xml:space="preserve">
+    <value>&amp;Display Depth ( Bpp ):</value>
+  </data>
+  <data name="LoadOptionsPdfGraphicsAlpha" xml:space="preserve">
+    <value>&amp;Graphics Alpha ( Bits ):</value>
+  </data>
+  <data name="LoadOptionsPdfTextAlpha" xml:space="preserve">
+    <value>&amp;Text Alpha ( Bits ):</value>
+  </data>
+  <data name="FileInformationFormatUnknown" xml:space="preserve">
+    <value>Unknown(or Raw Data).</value>
+  </data>
+  <data name="FileInformationFormatPcx" xml:space="preserve">
+    <value>ZSoft Pcx.</value>
+  </data>
+  <data name="FileInformationFormatGif" xml:space="preserve">
+    <value>CompuServe Gif.</value>
+  </data>
+  <data name="FileInformationFormatTif" xml:space="preserve">
+    <value>Tiff(Tagged Image File Format).</value>
+  </data>
+  <data name="FileInformationFormatTga" xml:space="preserve">
+    <value>Truevision Tga(Traga).</value>
+  </data>
+  <data name="FileInformationFormatCmp" xml:space="preserve">
+    <value>LEAD Compressed(Cmp).</value>
+  </data>
+  <data name="FileInformationFormatBmp" xml:space="preserve">
+    <value>Bitmap(Bmp).</value>
+  </data>
+  <data name="FileInformationFormatJpeg" xml:space="preserve">
+    <value>Jpeg File Interchange Format(Jfif).</value>
+  </data>
+  <data name="FileInformationFormatTifJpeg" xml:space="preserve">
+    <value>Jpeg Tagged Interchange Format.</value>
+  </data>
+  <data name="FileInformationFormatOs2" xml:space="preserve">
+    <value>Os/2 Bitmap(Os/2 Bmp).</value>
+  </data>
+  <data name="FileInformationFormatWmf" xml:space="preserve">
+    <value>Windows Metafile(Wmf).</value>
+  </data>
+  <data name="FileInformationFormatEps" xml:space="preserve">
+    <value>Postscript Raster(Encapsulated Postscript).</value>
+  </data>
+  <data name="FileInformationFormatTifLzw" xml:space="preserve">
+    <value>Tiff with Lzw Compression.</value>
+  </data>
+  <data name="FileInformationFormatJpeg411" xml:space="preserve">
+    <value>Jpeg File Interchange Format(4:1:1).</value>
+  </data>
+  <data name="FileInformationFormatTifJpeg411" xml:space="preserve">
+    <value>Jpeg Tagged Interchange Format(4:1:1).</value>
+  </data>
+  <data name="FileInformationFormatJpeg422" xml:space="preserve">
+    <value>Jpeg File Interchange Format(4:2:2).</value>
+  </data>
+  <data name="FileInformationFormatTifJpeg422" xml:space="preserve">
+    <value>Jpeg Tagged Interchange Format(4:2:2).</value>
+  </data>
+  <data name="FileInformationFormatCcitt" xml:space="preserve">
+    <value>Tiff Ccitt.</value>
+  </data>
+  <data name="FileInformationFormatLead1Bit" xml:space="preserve">
+    <value>LEAD1Bit LEAD 1-bit.</value>
+  </data>
+  <data name="FileInformationFormatCcittGroup31Dim" xml:space="preserve">
+    <value>Tiff Ccitt Group 3(1 Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatCcittGroup32Dim" xml:space="preserve">
+    <value>Tiff Ccitt Group 3(2 Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatCcittGroup4" xml:space="preserve">
+    <value>Tiff Ccitt Group 4.</value>
+  </data>
+  <data name="FileInformationFormatCals" xml:space="preserve">
+    <value>Cals Raster(Type 1).</value>
+  </data>
+  <data name="FileInformationFormatMac" xml:space="preserve">
+    <value>MacPaint(Mac).</value>
+  </data>
+  <data name="FileInformationFormatImg" xml:space="preserve">
+    <value>Gem Image(Img).</value>
+  </data>
+  <data name="FileInformationFormatMsp" xml:space="preserve">
+    <value>Microsoft Paint(Msp).</value>
+  </data>
+  <data name="FileInformationFormatWpg" xml:space="preserve">
+    <value>WordPerfect(Wpg).</value>
+  </data>
+  <data name="FileInformationFormatRas" xml:space="preserve">
+    <value>Sun Raster(Ras).</value>
+  </data>
+  <data name="FileInformationFormatFli" xml:space="preserve">
+    <value>Flic Animation(Fli).</value>
+  </data>
+  <data name="FileInformationFormatEpsTiff" xml:space="preserve">
+    <value>Postscript Raster Tiff(Encapsulated Postscript Tiff).</value>
+  </data>
+  <data name="FileInformationFormatEpsWmf" xml:space="preserve">
+    <value>Postscript Raster Wmf( Encapsulated Postscript Wmf).</value>
+  </data>
+  <data name="FileInformationFormatFaxG31Dim" xml:space="preserve">
+    <value>Fax Group 3(1 Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatFaxG32Dim" xml:space="preserve">
+    <value>Fax Group 3(2 dimensional).</value>
+  </data>
+  <data name="FileInformationFormatFaxG4" xml:space="preserve">
+    <value>Fax Group 4.</value>
+  </data>
+  <data name="FileInformationFormatWfxG31Dim" xml:space="preserve">
+    <value>WinFax Group 3(1 Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatWfxG4" xml:space="preserve">
+    <value>WinFax Group 4.</value>
+  </data>
+  <data name="FileInformationFormatIcaG31Dim" xml:space="preserve">
+    <value>Ioca(Ica)(1 Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatIcaG32Dim" xml:space="preserve">
+    <value>Ioca(Ica)(2 Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatIcaG4" xml:space="preserve">
+    <value>Ioca(Ica)(Group 4).</value>
+  </data>
+  <data name="FileInformationFormatOs22" xml:space="preserve">
+    <value>Os/2 Bitmap(Os/2 Bmp).</value>
+  </data>
+  <data name="FileInformationFormatPng" xml:space="preserve">
+    <value>Png(Portable Network Graphics).</value>
+  </data>
+  <data name="FileInformationFormatPsd" xml:space="preserve">
+    <value>Photoshop 3.0(Psd).</value>
+  </data>
+  <data name="FileInformationFormatRawIcaG31Dim" xml:space="preserve">
+    <value>Ioca(Ica)(Group 3 1Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatRawIcaG32Dim" xml:space="preserve">
+    <value>Ioca(Ica)(Group 3 2Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatRawIcaG4" xml:space="preserve">
+    <value>Ioca(Ica)(Group 4).</value>
+  </data>
+  <data name="FileInformationFormatBmpRle" xml:space="preserve">
+    <value>Bitmap(Bmp)(With Rle).</value>
+  </data>
+  <data name="FileInformationFormatTifCmyk" xml:space="preserve">
+    <value>Tiff Cmyk(With Cmyk compression).</value>
+  </data>
+  <data name="FileInformationFormatTifLzwCmyk" xml:space="preserve">
+    <value>Tiff Lzw(Cmyk).</value>
+  </data>
+  <data name="FileInformationFormatTifPackBits" xml:space="preserve">
+    <value>Tiff Packbits.</value>
+  </data>
+  <data name="FileInformationFormatTifPackBitsCmyk" xml:space="preserve">
+    <value>Tiff Packbits(Cmyk).</value>
+  </data>
+  <data name="FileInformationFormatWinIco" xml:space="preserve">
+    <value>Windows Icon(ICO).</value>
+  </data>
+  <data name="FileInformationFormatWinCur" xml:space="preserve">
+    <value>Windows Cursor(CUR)</value>
+  </data>
+  <data name="FileInformationFormatTifYcc" xml:space="preserve">
+    <value>Tiff YCC.</value>
+  </data>
+  <data name="FileInformationFormatTifLzwYcc" xml:space="preserve">
+    <value>Tiff Lzw YCC.</value>
+  </data>
+  <data name="FileInformationFormatTifPackbitsYcc" xml:space="preserve">
+    <value>Tiff Packbits(YCC).</value>
+  </data>
+  <data name="FileInformationFormatExif" xml:space="preserve">
+    <value>Exif.</value>
+  </data>
+  <data name="FileInformationFormatExifYcc" xml:space="preserve">
+    <value>Exif(YCC).</value>
+  </data>
+  <data name="FileInformationFormatExifJpeg422" xml:space="preserve">
+    <value>Exif(Jpeg 4:2:2).</value>
+  </data>
+  <data name="FileInformationFormatExifJpeg" xml:space="preserve">
+    <value>Exif(Jpeg).</value>
+  </data>
+  <data name="FileInformationFormatExifJpeg411" xml:space="preserve">
+    <value>Exif(Jpeg 4:1:1).</value>
+  </data>
+  <data name="FileInformationFormatPbmAscii" xml:space="preserve">
+    <value>Pbm Ascii.</value>
+  </data>
+  <data name="FileInformationFormatPbmBinary" xml:space="preserve">
+    <value>Pbm Binary.</value>
+  </data>
+  <data name="FileInformationFormatPgmAscii" xml:space="preserve">
+    <value>Pgm Ascii.</value>
+  </data>
+  <data name="FileInformationFormatPgmBinary" xml:space="preserve">
+    <value>Pgm Binary.</value>
+  </data>
+  <data name="FileInformationFormatPpmAscii" xml:space="preserve">
+    <value>Ppm Ascii.</value>
+  </data>
+  <data name="FileInformationFormatPpmBinary" xml:space="preserve">
+    <value>Ppm Binary.</value>
+  </data>
+  <data name="FileInformationFormatCut" xml:space="preserve">
+    <value>Dr.Halo.</value>
+  </data>
+  <data name="FileInformationFormatXpm" xml:space="preserve">
+    <value>Xpm Window PixMap.</value>
+  </data>
+  <data name="FileInformationFormatXbm" xml:space="preserve">
+    <value>Xbm.</value>
+  </data>
+  <data name="FileInformationFormatIffIlbm" xml:space="preserve">
+    <value>Iff(Amiga Interchange)(Ilbm).</value>
+  </data>
+  <data name="FileInformationFormatIffCat" xml:space="preserve">
+    <value>Iff(Amiga Interchange)(Cat).</value>
+  </data>
+  <data name="FileInformationFormatXwd" xml:space="preserve">
+    <value>X Window Dump(Xwd).</value>
+  </data>
+  <data name="FileInformationFormatClp" xml:space="preserve">
+    <value>Microsoft Windows Clipboard(Clp)</value>
+  </data>
+  <data name="FileInformationFormatJbig" xml:space="preserve">
+    <value>Jbig (Jbg).</value>
+  </data>
+  <data name="FileInformationFormatEmf" xml:space="preserve">
+    <value>Windows Enhanced Metafile(Emf)</value>
+  </data>
+  <data name="FileInformationFormatIcaIbmMmr" xml:space="preserve">
+    <value>Ioca(Ica)(Mmr Compressed).</value>
+  </data>
+  <data name="FileInformationFormatRawIcaIbmMmr" xml:space="preserve">
+    <value>Ioca(Ica)(Raw Mmr Compressed).</value>
+  </data>
+  <data name="FileInformationFormatAni" xml:space="preserve">
+    <value>Windows Animated Cursor(Ani).</value>
+  </data>
+  <data name="FileInformationFormatLaserData" xml:space="preserve">
+    <value>LaserData</value>
+  </data>
+  <data name="FileInformationFormatIntergraphRle" xml:space="preserve">
+    <value>IntergraphRle(Itg)(Rle compressed).</value>
+  </data>
+  <data name="FileInformationFormatCals4" xml:space="preserve">
+    <value>Cals Raster(Type 4).</value>
+  </data>
+  <data name="FileInformationFormatCals2" xml:space="preserve">
+    <value>Cals Raster(Type 2).</value>
+  </data>
+  <data name="FileInformationFormatCals3" xml:space="preserve">
+    <value>Cals Raster(Type 3).</value>
+  </data>
+  <data name="FileInformationFormatXwd10" xml:space="preserve">
+    <value>X Window Dump(Xwd 10).</value>
+  </data>
+  <data name="FileInformationFormatXwd11" xml:space="preserve">
+    <value>X Window Dump(Xwd 11).</value>
+  </data>
+  <data name="FileInformationFormatFlc" xml:space="preserve">
+    <value>Flic Animation(Flc).</value>
+  </data>
+  <data name="FileInformationFormatTifCmp" xml:space="preserve">
+    <value>Tiff(with LEAD Cmp compression).</value>
+  </data>
+  <data name="FileInformationFormatTifJbig" xml:space="preserve">
+    <value>Tiff(with Jbig compression).</value>
+  </data>
+  <data name="FileInformationFormatTifDxf" xml:space="preserve">
+    <value>Tiff(with embedded Dxf).</value>
+  </data>
+  <data name="FileInformationFormatTifUnknown" xml:space="preserve">
+    <value>Tiff(Unknown image data).</value>
+  </data>
+  <data name="FileInformationFormatSgi" xml:space="preserve">
+    <value>Silicon Graphics Image Format(Sgi).</value>
+  </data>
+  <data name="FileInformationFormatSgiRle" xml:space="preserve">
+    <value>Silicon Graphics Image Format(Sgi)(Rle).</value>
+  </data>
+  <data name="FileInformationFormatRasPdf" xml:space="preserve">
+    <value>Portable Document Format(Pdf).</value>
+  </data>
+  <data name="FileInformationFormatRasPdfG31Dim" xml:space="preserve">
+    <value>Portable Document Format(Pdf)(Group 3 1-Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatRasPdfG32Dim" xml:space="preserve">
+    <value>Portable Document Format(Pdf)(Group 3 2-Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatRasPdfG4" xml:space="preserve">
+    <value>Portable Document Format(Pdf)(Group 4l).</value>
+  </data>
+  <data name="FileInformationFormatRasPdfJpeg" xml:space="preserve">
+    <value>Portable Document Format(Pdf)(Jpeg).</value>
+  </data>
+  <data name="FileInformationFormatRasPdfJpeg422" xml:space="preserve">
+    <value>Portable Document Format(Pdf)(Jpeg 4:2:2).</value>
+  </data>
+  <data name="FileInformationFormatRasPdfJpeg411" xml:space="preserve">
+    <value>Portable Document Format(Pdf)(Jpeg 4:1:1).</value>
+  </data>
+  <data name="FileInformationFormatRaw" xml:space="preserve">
+    <value>Raw Image Data.</value>
+  </data>
+  <data name="FileInformationFormatTifCustom" xml:space="preserve">
+    <value>Unsupported.</value>
+  </data>
+  <data name="FileInformationFormatRawRgb" xml:space="preserve">
+    <value>Raw Image Data.</value>
+  </data>
+  <data name="FileInformationFormatRawRle4" xml:space="preserve">
+    <value>Raw Image Data(Rle 4-bit).</value>
+  </data>
+  <data name="FileInformationFormatRawRle8" xml:space="preserve">
+    <value>Raw Image Data(Rle 8-bit).</value>
+  </data>
+  <data name="FileInformationFormatRawBitfields" xml:space="preserve">
+    <value>Raw Image Data(BitField compressed).</value>
+  </data>
+  <data name="FileInformationFormatRawPackBits" xml:space="preserve">
+    <value>Raw Image Data(Packbits compressed).</value>
+  </data>
+  <data name="FileInformationFormatRawJpeg" xml:space="preserve">
+    <value>Raw Image Data(Jpeg compressed).</value>
+  </data>
+  <data name="FileInformationFormatFaxG31DimNoEol" xml:space="preserve">
+    <value>Raw Image Data(Group 3 1 Dimensional - with no EOL).</value>
+  </data>
+  <data name="FileInformationFormatRawCcitt" xml:space="preserve">
+    <value>Raw Image Data(Ccitt compressed).</value>
+  </data>
+  <data name="FileInformationFormatJp2" xml:space="preserve">
+    <value>Jp2 - Lossy or Lossless.</value>
+  </data>
+  <data name="FileInformationFormatJ2k" xml:space="preserve">
+    <value>J2k - Lossy or Lossless.</value>
+  </data>
+  <data name="FileInformationFormatCmw" xml:space="preserve">
+    <value>LEAD Cmw.</value>
+  </data>
+  <data name="FileInformationFormatTifJ2k" xml:space="preserve">
+    <value>Tiff(Tagged Image File Format)(Jpeg 2000).</value>
+  </data>
+  <data name="FileInformationFormatTifCmw" xml:space="preserve">
+    <value>Tiff(Tagged Image File Format)(LEAD Cmw).</value>
+  </data>
+  <data name="FileInformationFormatMrc" xml:space="preserve">
+    <value>Mrc format</value>
+  </data>
+  <data name="FileInformationFormatLeadMrc" xml:space="preserve">
+    <value>LEAD Mrc format</value>
+  </data>
+  <data name="FileInformationFormatTifMrc" xml:space="preserve">
+    <value>Tiff Mrc format</value>
+  </data>
+  <data name="FileInformationFormatTifLeadMrc" xml:space="preserve">
+    <value>Tiff LEAD Mrc format</value>
+  </data>
+  <data name="FileInformationFormatWbmp" xml:space="preserve">
+    <value>Wireless Bitmap Format(WBmp).</value>
+  </data>
+  <data name="FileInformationFormatJpegLab444" xml:space="preserve">
+    <value>Jpeg File Interchange Format(Jfif)(Lab).</value>
+  </data>
+  <data name="FileInformationFormatJpegLab411" xml:space="preserve">
+    <value>Jpeg File Interchange Format(Jfif)(Lab 4:1:1).</value>
+  </data>
+  <data name="FileInformationFormatJpegLab422" xml:space="preserve">
+    <value>Jpeg File Interchange Format(Jfif)(Lab 4:2:2).</value>
+  </data>
+  <data name="FileInformationFormatGeoTiff" xml:space="preserve">
+    <value>Tiff(Tagged Image File Format)(GEOTiff).</value>
+  </data>
+  <data name="FileInformationFormatTifLead1Bit" xml:space="preserve">
+    <value>Tiff(Tagged Image File Format)(With LEAD 1-bit compression).</value>
+  </data>
+  <data name="FileInformationFormatPtoca" xml:space="preserve">
+    <value>PTOCA Format(PTOCA).</value>
+  </data>
+  <data name="FileInformationFormatSct" xml:space="preserve">
+    <value>Scitex Continuous Tone Format(Sct).</value>
+  </data>
+  <data name="FileInformationFormatAfp" xml:space="preserve">
+    <value>Afp Format(Afp).</value>
+  </data>
+  <data name="FileInformationFormatIcaUncompressed" xml:space="preserve">
+    <value>Ioca(Ica)(uncompressed).</value>
+  </data>
+  <data name="FileInformationFormatRawIcaUncompressed" xml:space="preserve">
+    <value>Ioca(Ica)(raw uncompressed).</value>
+  </data>
+  <data name="FileInformationFormatSmp" xml:space="preserve">
+    <value>Smp Format(Smp).</value>
+  </data>
+  <data name="FileInformationFormatSmpG31Dim" xml:space="preserve">
+    <value>Smp Format(Smp)(Group 3 1-Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatSmpG32Dim" xml:space="preserve">
+    <value>Smp Format(Smp)(Group 3 2-Dimensional).</value>
+  </data>
+  <data name="FileInformationFormatSmpG4" xml:space="preserve">
+    <value>Smp Format(Smp)(Group 4).</value>
+  </data>
+  <data name="FileInformationFormatTgaRle" xml:space="preserve">
+    <value>Truevision Tga(Traga)(Rle).</value>
+  </data>
+  <data name="FileInformationFormatRasRle" xml:space="preserve">
+    <value>Sun Raster Format(Ras).</value>
+  </data>
+  <data name="FileInformationFormatClpRle" xml:space="preserve">
+    <value>Microsoft Windows Clipboard(Clp)(Rle compressed).</value>
+  </data>
+  <data name="FileInformationFormatFit" xml:space="preserve">
+    <value>Fits Format(Fit).</value>
+  </data>
+  <data name="FileInformationFormatCin" xml:space="preserve">
+    <value>Cineon Format(Cin).</value>
+  </data>
+  <data name="FileInformationFormatEpsPostscript" xml:space="preserve">
+    <value>Postscript Raster(Encapsulated Postscript).</value>
+  </data>
+  <data name="FileInformationFormatIntergraphCcittG4" xml:space="preserve">
+    <value>IntergraphRle(Itg)(Ccitt Group 4 compressed).</value>
+  </data>
+  <data name="FileInformationFormatSff" xml:space="preserve">
+    <value>Structured Fax File Format(Sff).</value>
+  </data>
+  <data name="FileInformationFormatIffIlbmUncompressed" xml:space="preserve">
+    <value>Iff(Amiga Interchange)(Ilbm uncompressed).</value>
+  </data>
+  <data name="FileInformationFormatIffCatUncompressed" xml:space="preserve">
+    <value>Iff(Amiga Interchange)(Cat uncompressed).</value>
+  </data>
+  <data name="FileInformationFormatAfpIcaG31Dim" xml:space="preserve">
+    <value>Afp Format(Afp(Ioca Group3 1 Dimensional.</value>
+  </data>
+  <data name="FileInformationFormatAfpIcaG32Dim" xml:space="preserve">
+    <value>Afp Format(Afp(Ioca Group3 2 Dimensional.</value>
+  </data>
+  <data name="FileInformationFormatAfpIcaG4" xml:space="preserve">
+    <value>Afp Format(Afp(Ioca Group4.</value>
+  </data>
+  <data name="FileInformationFormatAfpIcaUncompressed" xml:space="preserve">
+    <value>Afp Format(Afp(Ioca Uncompressed.</value>
+  </data>
+  <data name="FileInformationFormatAfpIcaIbmMmr" xml:space="preserve">
+    <value>Afp Format(Afp(Ioca Mmr Compressed.</value>
+  </data>
+  <data name="FileInformationFormatJpeg8" xml:space="preserve">
+    <value>Jpeg 4:0:0</value>
+  </data>
+  <data name="FileInformationFormatTifJpeg8" xml:space="preserve">
+    <value>Tagged Image File Format-Jpeg 4:0:0</value>
+  </data>
+  <data name="FileInformationFormatLosslessJpeg" xml:space="preserve">
+    <value>Lossless Jpeg</value>
+  </data>
+  <data name="FileInformationFormatLosslessTifJpeg" xml:space="preserve">
+    <value>Lossless TIF Jpeg </value>
+  </data>
+   <data name="FileInformationFormatJbig2" xml:space="preserve">
+    <value>Jbig2 </value>
+  </data>
+   <data name="FileInformationFormatGeoTif" xml:space="preserve">
+    <value>Geo Tif </value>
+  </data>
+   <data name="SaveOk" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SaveHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="SaveLookin" xml:space="preserve">
+    <value>Look &amp;in</value>
+  </data>
+  <data name="SaveFileName" xml:space="preserve">
+    <value>File &amp;name:</value>
+  </data>
+  <data name="SaveFilesoftype" xml:space="preserve">
+    <value>Files of &amp;type:</value>
+  </data>
+  <data name="SaveSubType" xml:space="preserve">
+    <value>S&amp;ub Type:</value>
+  </data>
+  <data name="SaveBPP" xml:space="preserve">
+    <value>&amp;BPP:</value>
+  </data>
+  <data name="SaveOptions" xml:space="preserve">
+    <value>O&amp;ptions...</value>
+  </data>
+  <data name="SaveQualityFactor" xml:space="preserve">
+    <value>&amp;QFactor:</value>
+  </data>
+  <data name="SaveQualityFactorPerfectQuality1" xml:space="preserve">
+    <value>Perfect quality 1</value>
+  </data>
+  <data name="SaveQualityFactorPerfectQuality2" xml:space="preserve">
+    <value>Perfect quality 2</value>
+  </data>
+  <data name="SaveQualityFactorSuperQuality" xml:space="preserve">
+    <value>Quality far more important than size</value>
+  </data>
+  <data name="SaveQualityFactorQuality" xml:space="preserve">
+    <value>Quality more important than size</value>
+  </data>
+  <data name="SaveQualityFactorQualityAndSize" xml:space="preserve">
+    <value>Quality and size equally important</value>
+  </data>
+  <data name="SaveQualityFactorSharp" xml:space="preserve">
+    <value>Size more important than quality (sharp</value>
+  </data>
+  <data name="SaveQualityFactorLessTiling" xml:space="preserve">
+    <value>Size more important than quality (less tiling</value>
+  </data>
+  <data name="SaveQualityFactorMaximumQuality" xml:space="preserve">
+    <value>Maximum compression keeping quality</value>
+  </data>
+  <data name="SaveQualityFactorMaximumCompression" xml:space="preserve">
+    <value>Maximum compression</value>
+  </data>
+  <data name="SaveQualityFactorCustom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="SaveQualityFactorAbcLossless" xml:space="preserve">
+    <value>Lossless compression</value>
+  </data>
+  <data name="SaveQualityFactorAbcLosslessFast" xml:space="preserve">
+    <value>Lossless Fast compression</value>
+  </data>
+  <data name="SaveQualityFactorAbcLossyFast" xml:space="preserve">
+    <value>Lossy Fast compression</value>
+  </data>
+  <data name="SaveQualityFactorAbcVirtualLossless" xml:space="preserve">
+    <value>Virtual Lossless compression</value>
+  </data>
+  <data name="SaveQualityFactorAbcRemoveBorder" xml:space="preserve">
+    <value>Remove Border compression</value>
+  </data>
+  <data name="SaveQualityFactorAbcEnhance" xml:space="preserve">
+    <value>Enhance compression</value>
+  </data>
+  <data name="SaveQualityFactorAbcModified1" xml:space="preserve">
+    <value>Modified1 compression</value>
+  </data>
+  <data name="SaveQualityFactorAbcModified1Fast" xml:space="preserve">
+    <value>Modified1 fast compression</value>
+  </data>
+  <data name="SaveQualityFactorAbcModified2" xml:space="preserve">
+    <value>Modified2 compression</value>
+  </data>
+  <data name="SaveQualityFactorAbcModified2Fast" xml:space="preserve">
+    <value>Modified2 fast compression</value>
+  </data>
+  <data name="SaveQualityFactorAbcModified3" xml:space="preserve">
+    <value>Modified3 compression</value>
+  </data>
+  <data name="SaveQualityFactorAbcModified3Fast" xml:space="preserve">
+    <value>Modified3 fast compression</value>
+  </data>
+  <data name="SaveMultipageUpdateErrorMessageBody" xml:space="preserve">
+    <value>{0} already exists. Do you want to update it?</value>
+  </data>
+  <data name="SaveMultipageOverwriteErrorMessageBody" xml:space="preserve">
+    <value>{0} already exists. Do you want to replace it?</value>
+  </data>
+  <data name="FileSaveOptionsCaption" xml:space="preserve">
+    <value>File Save Options</value>
+  </data>
+  <data name="FileSaveOptionsOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FileSaveOptionsCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FileSaveOptionsHelp" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="FileSaveOptionsCompression" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="FileSaveOptionsGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="FileSaveOptionsMultipage" xml:space="preserve">
+    <value>Multipage</value>
+  </data>
+  <data name="FileSaveOptionsStampOptions" xml:space="preserve">
+    <value>Stamp Options</value>
+  </data>
+  <data name="FileSaveOptionsStampBpp" xml:space="preserve">
+    <value>Bits Per Pi&amp;xel:</value>
+  </data>
+  <data name="FileSaveOptionsCompressionControl" xml:space="preserve">
+    <value>Contro&amp;l:</value>
+  </data>
+  <data name="FileSaveOptionsCompressionRatio" xml:space="preserve">
+    <value>Rat&amp;io:</value>
+  </data>
+  <data name="FileSaveOptionsProgressingOrder" xml:space="preserve">
+    <value>Progressing O&amp;rder:</value>
+  </data>
+  <data name="FileSaveOptionsTargetSize" xml:space="preserve">
+    <value>Target Si&amp;ze:</value>
+  </data>
+  <data name="FileSaveOptionsOperation" xml:space="preserve">
+    <value>Opera&amp;tion:</value>
+  </data>
+  <data name="FileSaveOptionsPageNo" xml:space="preserve">
+    <value>Page &amp;No.:</value>
+  </data>
+  <data name="FileSaveOptionsProgOptions" xml:space="preserve">
+    <value>&amp;Progressive Options:</value>
+  </data>
+  <data name="FileSaveOptionsQualityFactor" xml:space="preserve">
+    <value>&amp;QFactor:</value>
+  </data>
+  <data name="FileSaveOptionsStampHeight" xml:space="preserve">
+    <value>H&amp;eight:</value>
+  </data>
+  <data name="FileSaveOptionsStampWidth" xml:space="preserve">
+    <value>&amp;Width:</value>
+  </data>
+  <data name="FileSaveOptionsStampSave" xml:space="preserve">
+    <value>Sa&amp;ve</value>
+  </data>
+  <data name="FileSaveOptionsJ2kAdvanced" xml:space="preserve">
+    <value>&amp;J2k Options...</value>
+  </data>
+  <data name="FileSaveOptionsQualityFactorPerfectQuality1" xml:space="preserve">
+    <value>Perfect quality 1</value>
+  </data>
+  <data name="FileSaveOptionsQualityFactorPerfectQuality2" xml:space="preserve">
+    <value>Perfect quality 2</value>
+  </data>
+  <data name="FileSaveOptionsQualityFactorSuperQuality" xml:space="preserve">
+    <value>Quality far more important than size</value>
+  </data>
+  <data name="FileSaveOptionsQualityFactorQuality" xml:space="preserve">
+    <value>Quality more important than size</value>
+  </data>
+  <data name="FileSaveOptionsQualityFactorQualityAndSize" xml:space="preserve">
+    <value>Quality and size equally important</value>
+  </data>
+  <data name="FileSaveOptionsQualityFactorSharp" xml:space="preserve">
+    <value>Size more important than quality (sharp</value>
+  </data>
+  <data name="FileSaveOptionsQualityFactorLessTiling" xml:space="preserve">
+    <value>Size more important than quality (less tiling</value>
+  </data>
+  <data name="FileSaveOptionsQualityFactorMaximumQuality" xml:space="preserve">
+    <value>Maximum compression keeping quality</value>
+  </data>
+  <data name="FileSaveOptionsQualityFactorMaximumCompression" xml:space="preserve">
+    <value>Maximum compression</value>
+  </data>
+  <data name="FileSaveOptionsQualityFactorCustom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="FileSaveOptionsOverwrite" xml:space="preserve">
+    <value>Overwrite</value>
+  </data>
+  <data name="FileSaveOptionsAppend" xml:space="preserve">
+    <value>Append</value>
+  </data>
+  <data name="FileSaveOptionsReplace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="FileSaveOptionsInsert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="FileSaveOptionsProgMeaningful" xml:space="preserve">
+    <value>Meaningful Only</value>
+  </data>
+  <data name="FileSaveOptionsProgAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="FileSaveOptionsProg1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FileSaveOptionsProg2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FileSaveOptionsProg3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="FileSaveOptionsProg4" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="FileSaveOptionsProg5" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="FileSaveOptionsProg6" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="FileSaveOptionsProg7" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="FileSaveOptionsProg8" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="FileSaveOptionsProg9" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="FileSaveOptionsProg10" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="FileSaveOptionsJ2kLossless" xml:space="preserve">
+    <value>Lossless</value>
+  </data>
+  <data name="FileSaveOptionsJ2kCompRatio" xml:space="preserve">
+    <value>Compression Ratio</value>
+  </data>
+  <data name="FileSaveOptionsJ2kTargetSize" xml:space="preserve">
+    <value>Target File Size</value>
+  </data>
+  <data name="FileSaveOptionsJ2kQualityFactor" xml:space="preserve">
+    <value>Quality Factor</value>
+  </data>
+  <data name="FileSaveOptionsJ2kQuality" xml:space="preserve">
+    <value>Quality-axis</value>
+  </data>
+  <data name="FileSaveOptionsJ2kResolution1" xml:space="preserve">
+    <value>Resolution-axis 1</value>
+  </data>
+  <data name="FileSaveOptionsJ2kResolution2" xml:space="preserve">
+    <value>Resolution-axis 2</value>
+  </data>
+  <data name="FileSaveOptionsJ2kColor" xml:space="preserve">
+    <value>Color-axis</value>
+  </data>
+  <data name="FileSaveOptionsJ2kPosition" xml:space="preserve">
+    <value>Position-axis</value>
+  </data>
+  <data name="J2kAdvanceOptionsCaption" xml:space="preserve">
+    <value>Jpeg 2000 Options</value>
+  </data>
+  <data name="J2kAdvanceOptionsOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="J2kAdvanceOptionsCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="J2kAdvanceOptionsHelp" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="J2kAdvanceOptionsOffset" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="J2kAdvanceOptionsOffsetHorizontal" xml:space="preserve">
+    <value>&amp;Horizontal:</value>
+  </data>
+  <data name="J2kAdvanceOptionsOffsetVertical" xml:space="preserve">
+    <value>&amp;Vertical:</value>
+  </data>
+  <data name="J2kAdvanceOptionsFileSize" xml:space="preserve">
+    <value>Tile Size</value>
+  </data>
+  <data name="J2kAdvanceOptionsFileWidth" xml:space="preserve">
+    <value>&amp;Width:</value>
+  </data>
+  <data name="J2kAdvanceOptionsFileHeight" xml:space="preserve">
+    <value>Hei&amp;ght:</value>
+  </data>
+  <data name="J2kAdvanceOptionsFileOffset" xml:space="preserve">
+    <value>Tile Offset</value>
+  </data>
+  <data name="J2kAdvanceOptionsFileHorizontal" xml:space="preserve">
+    <value>Hori&amp;zontal:</value>
+  </data>
+  <data name="J2kAdvanceOptionsFileVertical" xml:space="preserve">
+    <value>Ver&amp;tical:</value>
+  </data>
+  <data name="J2kAdvanceOptionsGeneralSettings" xml:space="preserve">
+    <value>General Settings</value>
+  </data>
+  <data name="J2kAdvanceOptionsUseColorTransform" xml:space="preserve">
+    <value>Use Color Trans&amp;form</value>
+  </data>
+  <data name="J2kAdvanceOptionsUseDerivedQuantization" xml:space="preserve">
+    <value>Use Derived &amp;Quantization</value>
+  </data>
+  <data name="J2kAdvanceOptionsDecompressLevel" xml:space="preserve">
+    <value>Decompress &amp;Level</value>
+  </data>
+  <data name="J2kAdvanceOptionsGuardBits" xml:space="preserve">
+    <value>&amp;Guard Bits:</value>
+  </data>
+  <data name="J2kAdvanceOptionsMarkers" xml:space="preserve">
+    <value>Markers</value>
+  </data>
+  <data name="J2kAdvanceOptionsUseSopMarker" xml:space="preserve">
+    <value>Use &amp;Sop Marker</value>
+  </data>
+  <data name="J2kAdvanceOptionsUseEphMarker" xml:space="preserve">
+    <value>Use E&amp;PH Marker</value>
+  </data>
+  <data name="J2kAdvanceOptionsDerivedBase" xml:space="preserve">
+    <value>Derived Base</value>
+  </data>
+  <data name="J2kAdvanceOptionsMantissa" xml:space="preserve">
+    <value>&amp;Mantissa</value>
+  </data>
+  <data name="J2kAdvanceOptionsExponent" xml:space="preserve">
+    <value>E&amp;xponent</value>
+  </data>
+  <data name="J2kAdvanceOptionsCodeBlock" xml:space="preserve">
+    <value>Code Block</value>
+  </data>
+  <data name="J2kAdvanceOptionsCodeBlockWidth" xml:space="preserve">
+    <value>W&amp;idth</value>
+  </data>
+  <data name="J2kAdvanceOptionsCodeBlockHeight" xml:space="preserve">
+    <value>H&amp;eight</value>
+  </data>
+  <data name="J2kAdvanceOptionsSelectiveAcBypass" xml:space="preserve">
+    <value>Selective AC &amp;bypass</value>
+  </data>
+  <data name="J2kAdvanceOptionsResetContext" xml:space="preserve">
+    <value>Reset Context On Bo&amp;undaries</value>
+  </data>
+  <data name="J2kAdvanceOptionsTermination" xml:space="preserve">
+    <value>Termi&amp;nation On Each Pass</value>
+  </data>
+  <data name="J2kAdvanceOptionsVerticallyCausal" xml:space="preserve">
+    <value>Vertically Causal C&amp;ontext</value>
+  </data>
+  <data name="J2kAdvanceOptionsPredictableTermination" xml:space="preserve">
+    <value>Pre&amp;dictable Termination</value>
+  </data>
+  <data name="J2kAdvanceOptionsErrorResilience" xml:space="preserve">
+    <value>E&amp;rror Resiliences Symbol</value>
+  </data>
+  <data name="J2kAdvanceOptionsDefaultOptions" xml:space="preserve">
+    <value>&amp;Default Options</value>
+  </data>
+  <data name="J2kAdvanceOptionsAlphaChannel" xml:space="preserve">
+    <value>Alpha Channel</value>
+  </data>
+  <data name="J2kAdvanceOptionsAlphaChannelActiveBits" xml:space="preserve">
+    <value>Acti&amp;ve Bits:</value>
+  </data>
+  <data name="J2kAdvanceOptionsAlphaChannelLossless" xml:space="preserve">
+    <value>Lo&amp;ssless</value>
+  </data>
+  <data name="FileSaveOptionsJbig2" xml:space="preserve">
+    <value>&amp;Jbig2 Options...</value>
+  </data>
+   <data name="Jbig2OptionsCaption" xml:space="preserve">
+      <value>Jbig2 Options</value>
+   </data>
+   <data name="Jbig2OptionsTemplate" xml:space="preserve">
+      <value>&amp;Template</value>
+   </data>
+   <data name="Jbig2OptionsThreeLines16Pixel" xml:space="preserve">
+      <value>Three Lines 16 Pixel</value>
+   </data>
+   <data name="Jbig2OptionsThreeLines13Pixel" xml:space="preserve">
+      <value>Three Lines 13 Pixel</value>
+   </data>
+   <data name="Jbig2OptionsThreeLines10Pixel" xml:space="preserve">
+      <value>Three Lines 10 Pixel</value>
+   </data>
+   <data name="Jbig2OptionsTwoLines10Pixel" xml:space="preserve">
+      <value>Two Lines 10 Pixel</value>
+   </data>
+   <data name="Jbig2OptionsGbat1" xml:space="preserve">
+      <value>G-BAT&amp;1</value>
+   </data>
+   <data name="Jbig2OptionsGbat1X" xml:space="preserve">
+      <value>X:</value>
+   </data>
+   <data name="Jbig2OptionsGbat1Y" xml:space="preserve">
+      <value>Y:</value>
+   </data>
+   <data name="Jbig2OptionsGbat2" xml:space="preserve">
+      <value>G-BAT&amp;2</value>
+   </data>
+   <data name="Jbig2OptionsGbat2X" xml:space="preserve">
+      <value>X:</value>
+   </data>
+   <data name="Jbig2OptionsGbat2Y" xml:space="preserve">
+      <value>Y:</value>
+   </data>
+   <data name="Jbig2OptionsGbat3" xml:space="preserve">
+      <value>G-BAT&amp;3</value>
+   </data>
+   <data name="Jbig2OptionsGbat3X" xml:space="preserve">
+      <value>X:</value>
+   </data>
+   <data name="Jbig2OptionsGbat3Y" xml:space="preserve">
+      <value>Y:</value>
+   </data>
+   <data name="Jbig2OptionsGbat4" xml:space="preserve">
+      <value>G-BAT&amp;4</value>
+   </data>
+   <data name="Jbig2OptionsGbat4X" xml:space="preserve">
+      <value>X:</value>
+   </data>
+   <data name="Jbig2OptionsGbat4Y" xml:space="preserve">
+      <value>Y:</value>
+   </data>
+   <data name="Jbig2OptionsTypicalPrediction" xml:space="preserve">
+      <value>Typical &amp;Prediction</value>
+   </data>
+   <data name="Jbig2OptionsQFactor" xml:space="preserve">
+      <value>&amp;QFactor:</value>
+   </data>
+   <data name="Jbig2OptionsSetting" xml:space="preserve">
+      <value>&amp;Setting:</value>
+   </data>
+   <data name="Jbig2OptionsSettingImage" xml:space="preserve">
+      <value>Image </value>
+   </data>
+   <data name="Jbig2OptionsSettingText" xml:space="preserve">
+      <value>Text</value>
+   </data>
+   <data name="Jbig2OptionsTextSymbol" xml:space="preserve">
+      <value>Text &amp;Symbol</value>
+   </data>
+   <data name="Jbig2OptionsSymbolMin" xml:space="preserve">
+      <value>&amp;Min</value>
+   </data>
+   <data name="Jbig2OptionsSymbolMinWidth" xml:space="preserve">
+      <value>&amp;Width:</value>
+   </data>
+   <data name="Jbig2OptionsSymbolMinHeight" xml:space="preserve">
+      <value>&amp;Height:</value>
+   </data>
+   <data name="Jbig2OptionsSymbolMinArea" xml:space="preserve">
+      <value>&amp;Area:</value>
+   </data>
+   <data name="Jbig2OptionsSymbolMax" xml:space="preserve">
+      <value>Ma&amp;x</value>
+   </data>
+   <data name="Jbig2OptionsSymbolMaxWidth" xml:space="preserve">
+      <value>&amp;Width:</value>
+   </data>
+   <data name="Jbig2OptionsSymbolMaxHeight" xml:space="preserve">
+      <value>&amp;Height:</value>
+   </data>
+   <data name="Jbig2OptionsSymbolMaxArea" xml:space="preserve">
+      <value>&amp;Area:</value>
+   </data>
+   <data name="Jbig2OptionsDictionarySymbol" xml:space="preserve">
+      <value>&amp;Dictionary Symbols:</value>
+   </data>
+   <data name="Jbig2OptionsKeepAll" xml:space="preserve">
+      <value>Keep all</value>
+   </data>
+   <data name="Jbig2OptionsRemoveUnrepeated" xml:space="preserve">
+      <value>Remove unrepeated</value>
+   </data>
+   <data name="Jbig2OptionsDifferenceThreshold" xml:space="preserve">
+      <value>Di&amp;fference Threshold:</value>
+   </data>
+   <data name="Jbig2OptionsResolution" xml:space="preserve">
+      <value>&amp;Resolution</value>
+   </data>
+   <data name="Jbig2OptionsResolutionX" xml:space="preserve">
+      <value>X:</value>
+   </data>
+   <data name="Jbig2OptionsResolutionY" xml:space="preserve">
+      <value>Y:</value>
+   </data>
+   <data name="Jbig2OptionsEnableDictionary" xml:space="preserve">
+      <value>Enable Dictionar&amp;y</value>
+   </data>
+   <data name="Jbig2OptionsOk" xml:space="preserve">
+       <value>OK</value>
+   </data>
+   <data name="Jbig2OptionsCancel" xml:space="preserve">
+       <value>Cancel</value>
+   </data>
+   <data name="Jbig2OptionsHelp" xml:space="preserve">
+       <value>&amp;Help</value>
+   </data>
+   <data name="FileInformationFormatHdp" xml:space="preserve">
+    <value>MS HDPhoto(Hdp).</value>
+  </data>
+   <data name="FileInformationFormatHdpGray" xml:space="preserve">
+    <value>MS HDPhoto Gray(Hdp).</value>
+  </data>
+   <data name="FileInformationFormatHdpCmyk" xml:space="preserve">
+    <value>MS HDPhoto CMYK(Hdp).</value>
+  </data>
+   <data name="FileInformationFormatPngIco" xml:space="preserve">
+    <value>Vista Icon</value>
+  </data>
+   <data name="FileInformationFormatSid" xml:space="preserve">
+    <value>MrSid Format</value>
+  </data>
+   <data name="FileInformationFormatWmz" xml:space="preserve">
+    <value>Compressed Windows Metafile Format</value>
+  </data>
+   <data name="FileInformationFormatKdc" xml:space="preserve">
+    <value>Kodak Digital Camera KDC</value>
+  </data>
+   <data name="FileInformationFormatCrw" xml:space="preserve">
+    <value>Canon RAW Format</value>
+  </data>
+   <data name="FileInformationFormatDcr" xml:space="preserve">
+    <value>Kodak Professional Digital Camera Format</value>
+  </data>
+   <data name="FileInformationFormatRtfRaster" xml:space="preserve">
+    <value>Rich Text Format</value>
+  </data>
+   <data name="FileInformationFormatEcw" xml:space="preserve">
+    <value>Enhanced Compressed Wavelet</value>
+  </data>
+   <data name="FileInformationFormatTxt" xml:space="preserve">
+    <value>Text format</value>
+  </data>
+   <data name="FileInformationFormatFpx" xml:space="preserve">
+    <value>FlashPix</value>
+  </data>
+   <data name="FileInformationFormatFpxJpeg" xml:space="preserve">
+    <value>FlashPix Jpeg</value>
+  </data>
+   <data name="FileInformationFormatPct" xml:space="preserve">
+    <value>Mac PICT</value>
+  </data>
+   <data name="FileInformationFormatAwd" xml:space="preserve">
+    <value>MS Fax</value>
+  </data>
+   <data name="FileInformationFormatAbc" xml:space="preserve">
+    <value>LEAD Advanced Bitonal Compression</value>
+  </data>
+   <data name="FileInformationFormatTifxFaxG31D" xml:space="preserve">
+    <value>Internet Fax G31D</value>
+  </data>
+   <data name="FileInformationFormatTifxFaxG32D" xml:space="preserve">
+    <value>Internet Fax G32D</value>
+  </data>
+   <data name="FileInformationFormatTifxFaxG4" xml:space="preserve">
+    <value>Internet Fax G4</value>
+  </data>
+   <data name="FileInformationFormatTifxJbig" xml:space="preserve">
+    <value>Internet Fax Jbig</value>
+  </data>
+   <data name="FileInformationFormatDcs" xml:space="preserve">
+    <value>Kodack Digital Camera</value>
+  </data>
+   <data name="FileInformationFormatDjvu" xml:space="preserve">
+    <value>LizardTech DjVu</value>
+  </data>
+   <data name="FileInformationFormatKdc120" xml:space="preserve">
+    <value>Kodak Digital Camera KDC</value>
+  </data>
+   <data name="FileInformationFormatKdc40" xml:space="preserve">
+    <value>Kodak Digital Camera KDC</value>
+  </data>
+   <data name="FileInformationFormatKdc50" xml:space="preserve">
+    <value>Kodak Digital Camera KDC</value>
+  </data>
+   <data name="FileInformationFormatPcd" xml:space="preserve">
+    <value>PCD (Kodak Photo CD)</value>
+  </data>
+   <data name="FileInformationTifZip" xml:space="preserve">
+    <value>Tagged Image File Format-ZIP</value>
+  </data>
+   <data name="FileInformationXps" xml:space="preserve">
+    <value>XPS Document</value>
+  </data>
+   <data name="LoadOptionsXps" xml:space="preserve">
+    <value>Xps</value>
+  </data>
+   <data name="LoadOptionsXpsResolutionDpi" xml:space="preserve">
+    <value>Resolution ( Dpi )</value>
+  </data>
+   <data name="LoadOptionsXpsHorizontal" xml:space="preserve">
+    <value>&amp;Horizontal:</value>
+  </data>
+   <data name="LoadOptionsXpsVertical" xml:space="preserve">
+    <value>&amp;Vertical:</value>
+  </data>
+   <data name="FileInformationFormatJpx" xml:space="preserve">
+    <value>JPEG 2000 part-2 (JPX)</value>
+  </data>
+   <data name="FileInformationFormatMng" xml:space="preserve">
+    <value>Multiple-image Network Graphics</value>
+  </data>
+   <data name="FileInformationXpsJpeg" xml:space="preserve">
+    <value>XPS Document</value>
+  </data>
+   <data name="FileInformationXpsJpeg411" xml:space="preserve">
+    <value>XPS Document</value>
+  </data>
+   <data name="FileInformationXpsJpeg422" xml:space="preserve">
+    <value>XPS Document</value>
+  </data>
+   <data name="FileInformationFormatMngGray" xml:space="preserve">
+    <value>Multiple-image Network Graphics(PNG Gray)</value>
+  </data>
+   <data name="FileInformationFormatMngJng" xml:space="preserve">
+    <value>Multiple-image Network Graphics(JNG YUV 4:4:4)</value>
+  </data>
+   <data name="FileInformationFormatMngJng411" xml:space="preserve">
+    <value>Multiple-image Network Graphics(JNG YUV 4:1:1)</value>
+  </data>
+   <data name="FileInformationFormatMngJng422" xml:space="preserve">
+    <value>Multiple-image Network Graphics(JNG YUV 4:2:2)</value>
+  </data>
+   <data name="FileInformationFormatTifxJbigT43" xml:space="preserve">
+    <value>Internet Fax Jbig T43</value>
+  </data>
+   <data name="FileSaveOptionsPdfDefault" xml:space="preserve">
+    <value>PDF 1.2</value>
+  </data>
+   <data name="FileSaveOptionsPdfA" xml:space="preserve">
+    <value>PDF/A</value>
+  </data>
+   <data name="FileSaveOptionsPdfProfiles" xml:space="preserve">
+    <value>PDF Profiles:</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSize" xml:space="preserve">
+    <value>Precinct Size:</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeFull" xml:space="preserve">
+    <value>Full</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeUniform64" xml:space="preserve">
+    <value>Uniform 64</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeUniform128" xml:space="preserve">
+    <value>Uniform 128</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeUniform256" xml:space="preserve">
+    <value>Uniform 256</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeUniform512" xml:space="preserve">
+    <value>Uniform 512</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeUniform1024" xml:space="preserve">
+    <value>Uniform 1024</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeUniform2048" xml:space="preserve">
+    <value>Uniform 2048</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeHierarchicalOne64" xml:space="preserve">
+    <value>Hierarchical One 64</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeHierarchicalOne128" xml:space="preserve">
+    <value>Hierarchical One 128</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeHierarchicalOne256" xml:space="preserve">
+    <value>Hierarchical One 256</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeHierarchicalOne512" xml:space="preserve">
+    <value>Hierarchical One 512</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeHierarchicalTwo64" xml:space="preserve">
+    <value>Hierarchical Two 64</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeHierarchicalTwo128" xml:space="preserve">
+    <value>Hierarchical Two 128</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeHierarchicalTwo256" xml:space="preserve">
+    <value>Hierarchical Two 256</value>
+  </data>
+   <data name="J2kAdvanceOptionsPrecinctSizeHierarchicalTwo512" xml:space="preserve">
+    <value>Hierarchical Two 512</value>
+  </data>
+   <data name="FileInformationFormatIcaAbic" xml:space="preserve">
+    <value>IOCA files Abic compression</value>
+  </data>
+   <data name="FileInformationFormatDicomRleGray" xml:space="preserve">
+    <value>DICOM RLE Grayscale</value>
+  </data>
+   <data name="FileInformationFormatDicomRleColor" xml:space="preserve">
+    <value>DICOM RLE Color</value>
+  </data>
+   <data name="FileInformationFormatDicomJpegGray" xml:space="preserve">
+    <value>DICOM Jpeg Grayscale</value>
+  </data>
+   <data name="FileInformationFormatDicomJpegColor" xml:space="preserve">
+    <value>DICOM Jpeg Color</value>
+  </data>
+   <data name="FileInformationFormatDicomGray" xml:space="preserve">
+    <value>Dicom Grayscale</value>
+  </data>
+   <data name="FileInformationFormatDicomColor" xml:space="preserve">
+    <value>Dicom Color</value>
+  </data>
+   <data name="FileInformationFormatDicomJ2kGray" xml:space="preserve">
+    <value>Dicom J2k Grayscale</value>
+  </data>
+   <data name="FileInformationFormatDicomJ2kColor" xml:space="preserve">
+    <value>Dicom J2k Color </value>
+  </data>
+   <data name="FileSaveOptionsPdf14" xml:space="preserve">
+    <value>PDF 1.4</value>
+  </data>
+   <data name="FileSaveOptionsPdf15" xml:space="preserve">
+    <value>PDF 1.5</value>
+  </data>
+   <data name="FileInformationFormatTdb" xml:space="preserve">
+    <value>Thumbs.db</value>
+  </data>
+   <data name="FileInformationFormatTdbVista" xml:space="preserve">
+    <value>Vista thumbs.db</value>
+  </data>
+   <data name="FileInformationFormatSnp" xml:space="preserve">
+    <value>MS Access Report Snapshots</value>
+  </data>
+   <data name="FileInformationFormatAfpIm1" xml:space="preserve">
+    <value>IM1-AFP Advanced Function Presentation</value>
+  </data>
+   <data name="FileInformationFormatJpeg12" xml:space="preserve">
+    <value>Jpeg 4:0:0</value>
+  </data>
+   <data name="FileInformationFormatTifJpeg12" xml:space="preserve">
+    <value>Tagged Image File Format-Jpeg 4:0:0</value>
+  </data>
+   <data name="FileInformationFormatXls" xml:space="preserve">
+    <value>Microsoft Office Excel Workbook</value>
+  </data>
+   <data name="LoadOptionsXls" xml:space="preserve">
+    <value>Xls</value>
+  </data>
+   <data name="LoadOptionsXlsMultiPageSheet" xml:space="preserve">
+    <value>&amp;Multi Page Sheet</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocument" xml:space="preserve">
+    <value>Rasterize Document</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentPageWidth" xml:space="preserve">
+    <value>Page &amp;width:</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentPageHeight" xml:space="preserve">
+    <value>Page &amp;height:</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentLeftMargin" xml:space="preserve">
+    <value>&amp;Left margin:</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentTopMargin" xml:space="preserve">
+    <value>&amp;Top margin:</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentRightMargin" xml:space="preserve">
+    <value>&amp;Right margin:</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentBottomMargin" xml:space="preserve">
+    <value>&amp;Bottom margin:</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentUnit" xml:space="preserve">
+    <value>&amp;Unit:</value>
+  </data>
+   <data name="LoadOptionsRasterizeDocumentUnitPixel" xml:space="preserve">
+    <value>Pixel</value>
+  </data>
+   <data name="LoadOptionsRasterizeDocumentUnitInch" xml:space="preserve">
+    <value>Inch</value>
+  </data>
+   <data name="LoadOptionsRasterizeDocumentUnitMillimeter" xml:space="preserve">
+    <value>Millimeter</value>
+  </data>
+   <data name="LoadOptionsRasterizeDocumentResolution" xml:space="preserve">
+    <value>&amp;Resolution:</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentSizeMode" xml:space="preserve">
+      <value>&amp;Size mode:</value>
+   </data>
+  <data name="LoadOptionsRasterizeDocumentSizeModeNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentSizeModeFit" xml:space="preserve">
+    <value>Fit</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentSizeModeFitAlways" xml:space="preserve">
+    <value>Fit Always</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentSizeModeFitWidth" xml:space="preserve">
+    <value>Fit Width</value>
+  </data>
+  <data name="LoadOptionsRasterizeDocumentSizeModeStretch" xml:space="preserve">
+    <value>Stretch</value>
+  </data>
+   <data name="J2kAdvancedOptionsROICaption" xml:space="preserve">
+    <value>ROI Options</value>
+  </data>
+   <data name="J2kAdvancedOptionsROIOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+   <data name="J2kAdvancedOptionsROICancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+   <data name="J2kAdvancedOptionsROIHelp" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+   <data name="J2kAdvancedOptionsROIEnable" xml:space="preserve">
+    <value>Use ROI</value>
+  </data>
+   <data name="J2kAdvancedOptionsROIContorl" xml:space="preserve">
+    <value>Control:</value>
+  </data>
+   <data name="J2kAdvancedOptionsROIWeight" xml:space="preserve">
+    <value>ROI Weight:</value>
+  </data>
+   <data name="J2kAdvancedOptionsROILeft" xml:space="preserve">
+    <value>Left:</value>
+  </data>
+   <data name="J2kAdvancedOptionsROITop" xml:space="preserve">
+    <value>Top:</value>
+  </data>
+   <data name="J2kAdvancedOptionsROIRight" xml:space="preserve">
+    <value>Right:</value>
+  </data>
+   <data name="J2kAdvancedOptionsROIBottom" xml:space="preserve">
+    <value>Bottom:</value>
+  </data>
+   <data name="J2kAdvancedOptionsControlRegion" xml:space="preserve">
+    <value>Region</value>
+  </data>
+   <data name="J2kAdvancedOptionsControlRectangle" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+   <data name="FileInformationFormatDoc" xml:space="preserve">
+    <value>Microsoft Office 2003 Word Document</value>
+  </data>
+   <data name="FileInformationFormatPpt" xml:space="preserve">
+    <value>Microsoft Office 2003 PowerPoint Presentation</value>
+  </data>
+   <data name="FileInformationFormatAnz" xml:space="preserve">
+    <value>Mayo Clinic Analyze 7.5</value>
+  </data>
+   <data name="FileInformationFormatVff" xml:space="preserve">
+    <value>SUN TCCA Visualization File Format</value>
+  </data>
+   <data name="FileInformationFormatJpm" xml:space="preserve">
+    <value>JPM (jpm)</value>
+  </data>
+   <data name="FileInformationFormatDocx" xml:space="preserve">
+    <value>Microsoft Office Word Document 2007</value>
+  </data>
+   <data name="FileInformationFormatXlsx" xml:space="preserve">
+    <value>Microsoft Excel 2007 XML Workbook</value>
+  </data>
+   <data name="FileInformationFormatPptx" xml:space="preserve">
+    <value>Microsoft Office 2007 PowerPoint Presentation</value>
+  </data>
+   <data name="FileSaveOptionsPdf16" xml:space="preserve">
+    <value>PDF 1.6</value>
+  </data>
+   <data name="LoadOptionsVff" xml:space="preserve">
+    <value>Vff</value>
+  </data>
+   <data name="LoadOptionsVffView" xml:space="preserve">
+    <value>VFF View:</value>
+  </data>
+   <data name="LoadOptionsVffViewUpToDown" xml:space="preserve">
+    <value>Up To Down</value>
+  </data>
+   <data name="LoadOptionsVffViewDownToUp" xml:space="preserve">
+    <value>Down To Up</value>
+  </data>
+   <data name="LoadOptionsVffViewLeftToRight" xml:space="preserve">
+    <value>Left To Right</value>
+  </data>
+   <data name="LoadOptionsVffViewRightToLeft" xml:space="preserve">
+    <value>Right To Left</value>
+  </data>
+   <data name="LoadOptionsVffViewFrontToRear" xml:space="preserve">
+    <value>Front To Rear</value>
+  </data>
+   <data name="LoadOptionsVffViewRearToFront" xml:space="preserve">
+    <value>Rear To Front</value>
+  </data>
+   <data name="LoadOptionsAnz" xml:space="preserve">
+    <value>Anz</value>
+  </data>
+   <data name="LoadOptionsAnzView" xml:space="preserve">
+    <value>ANZ View:</value>
+  </data>
+   <data name="LoadOptionsAnzViewTransverse" xml:space="preserve">
+    <value>Transverse</value>
+  </data>
+   <data name="LoadOptionsAnzViewSagittal" xml:space="preserve">
+    <value>Sagittal</value>
+  </data>
+   <data name="LoadOptionsAnzViewCoronal" xml:space="preserve">
+    <value>Coronal</value>
+  </data>
+   <data name="FileSaveOptionsPdf13" xml:space="preserve">
+    <value>PDF 1.3</value>
+  </data>
+   <data name="FileInformationFormatJxr" xml:space="preserve">
+    <value>JPEG Extended Range YUV 4:4:4</value>
+  </data>
+   <data name="FileInformationFormatJxrGray" xml:space="preserve">
+    <value>JPEG Extended Range Gray</value>
+  </data>
+   <data name="FileInformationFormatJxrCmyk" xml:space="preserve">
+    <value>JPEG Extended Range Cmyk</value>
+  </data>
+   <data name="FileInformationFormatJxr420" xml:space="preserve">
+    <value>JPEG Extended Range YUV 4:2:0</value>
+  </data>
+   <data name="FileInformationFormatJxr422" xml:space="preserve">
+    <value>JPEG Extended Range YUV 4:2:2</value>
+  </data>
+   <data name="FileInformationFormatJls" xml:space="preserve">
+    <value>JPEG LS</value>
+  </data>
+   <data name="FileInformationFormatJpegRgb" xml:space="preserve">
+    <value>JPEG RGB</value>
+  </data>
+   <data name="FileInformationFormatPostscript" xml:space="preserve">
+    <value>Postscript</value>
+  </data>
+   <data name="FileInformationFormatJlsLine" xml:space="preserve">
+    <value>JPEG LS LINE</value>
+  </data>
+   <data name="FileInformationFormatJlsSample" xml:space="preserve">
+    <value>JPEG LS SAMPLE</value>
+  </data>
+   <data name="FileInformationFormatDcfArw" xml:space="preserve">
+    <value>SONY</value>
+  </data>
+   <data name="FileInformationFormatDcfNef" xml:space="preserve">
+    <value>NIKON</value>
+  </data>
+   <data name="FileInformationFormatDcfCr2" xml:space="preserve">
+    <value>CANON</value>
+  </data>
+   <data name="FileInformationFormatDcfRaf" xml:space="preserve">
+    <value>FUIJFILM</value>
+  </data>
+   <data name="FileInformationFormatDcfOrf" xml:space="preserve">
+    <value>OLYMPUS</value>
+  </data>
+   <data name="FileInformationFormatDcfPentax" xml:space="preserve">
+    <value>PENTAX</value>
+  </data>
+   <data name="FileInformationFormatDcfRw2" xml:space="preserve">
+    <value>PANASONIC</value>
+  </data>
+   <data name="FileInformationFormatDcfCasio" xml:space="preserve">
+    <value>CASIO</value>
+  </data>
+   <data name="FileInformationFormatJxr1" xml:space="preserve">
+    <value>JPEG Extended Range Black and White</value>
+  </data>
+   <data name="FileInformationFormatTifJbig2" xml:space="preserve">
+    <value>Tiff(with Jbig2 compression)</value>
+  </data>
+   <data name="FileInformationFormatTifAbic" xml:space="preserve">
+    <value>Tiff(with Abic compression)</value>
+  </data>
+   <data name="FileInformationFormatTifAbc" xml:space="preserve">
+    <value>Tiff(with Abc compression)</value>
+  </data>
+   <data name="FileInformationFormatPub" xml:space="preserve">
+    <value>Electronic Publication (ePub)</value>
+  </data>
+   <data name="FileInformationFormatHtm" xml:space="preserve">
+    <value>HyperText Markup Language (HTML)</value>
+  </data>
+   <data name="FileInformationFormatMob" xml:space="preserve">
+    <value>Mobipocket (MOBI)</value>
+  </data>
+   <data name="FileInformationFormatIng" xml:space="preserve">
+    <value>INGR - Intergraph Raster File Format</value>
+  </data>
+   <data name="FileInformationFormatIngRle" xml:space="preserve">
+    <value>INGR - Intergraph Raster File Format RLE</value>
+  </data>
+   <data name="FileInformationFormatIngAdRle" xml:space="preserve">
+    <value>INGR - Intergraph Raster File Format Adaptive RLE</value>
+  </data>
+   <data name="FileInformationFormatIngG4" xml:space="preserve">
+    <value>INGR - Intergraph Raster File Format CCITT4</value>
+  </data>
+   <data name="FileInformationFormatIcaJpeg" xml:space="preserve">
+    <value>IOCA Image Object Content Architecture- IBM- JPEG</value>
+  </data>
+   <data name="FileInformationFormatIcaJpeg411" xml:space="preserve">
+    <value>IOCA Image Object Content Architecture- IBM- JPEG 4:1:1</value>
+  </data>
+   <data name="FileInformationFormatIcaJpeg422" xml:space="preserve">
+    <value>IOCA Image Object Content Architecture- IBM- JPEG 4:2:2</value>
+  </data>
+  <!-- Vector formats: start -->
+  <data name="FileInformationFormatMif" xml:space="preserve">
+   <value>MapInfo Interchange File</value>
+  </data>
+  <data name="FileInformationFormatE00" xml:space="preserve">
+   <value>ArcInfo Interchange File</value>
+  </data>
+  <data name="FileInformationFormatDrw" xml:space="preserve">
+   <value>Micrografx Draw</value>
+  </data>
+  <data name="FileInformationFormatDwg" xml:space="preserve">
+   <value>AutoDesk Drawing</value>
+  </data>
+  <data name="FileInformationFormatSvg" xml:space="preserve">
+   <value>Scalable Vector Graphics</value>
+  </data>
+  <data name="FileInformationFormatDwf" xml:space="preserve">
+   <value>AutoDesk Vector Format</value>
+  </data>
+  <data name="FileInformationFormatDwfx" xml:space="preserve">
+   <value>Autodesk DWFX</value>
+  </data>
+  <data name="FileInformationFormatDxf" xml:space="preserve">
+   <value>AutoDesk Drawing Interchange Format</value>
+  </data>
+   <data name="FileInformationFormatDxf13" xml:space="preserve">
+   <value>AutoDesk Drawing Interchange Format</value>
+  </data>
+   <data name="FileInformationFormatPcl" xml:space="preserve">
+   <value>HPGL plotter file vector graphics PCL</value>
+  </data>
+  <data name="FileInformationFormatPclXl" xml:space="preserve">
+   <value>Printer Command Language 6/XL</value>
+  </data>
+  <data name="FileInformationFormatShp" xml:space="preserve">
+   <value>ESRI Shape (Environmental Systems Research Institute)</value>
+  </data>
+  <data name="FileInformationFormatNap" xml:space="preserve">
+   <value>NAP format (vector)</value>
+  </data>
+  <data name="FileInformationFormatCgm" xml:space="preserve">
+   <value>Computer Graphics Metafile</value>
+  </data>
+  <data name="FileInformationFormatCmx" xml:space="preserve">
+   <value>Corel Presentation Exchange Format</value>
+  </data>
+  <data name="FileInformationFormatGerber" xml:space="preserve">
+   <value>Gerber Vector</value>
+  </data>
+  <data name="FileInformationFormatIntergraphVector" xml:space="preserve">
+   <value>Intergraph Vector</value>
+  </data>
+  <data name="FileInformationVectorParallelogramMinimum" xml:space="preserve">
+   <value>Vector Parallelogram Minimum</value>
+  </data>
+  <data name="FileInformationVectorParallelogramMaximum" xml:space="preserve">
+   <value>Vector Parallelogram Maximum</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnit" xml:space="preserve">
+   <value>Vector Parallelogram Unit</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitInches" xml:space="preserve">
+   <value>Inches</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitFeet" xml:space="preserve">
+   <value>Feet</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitYards" xml:space="preserve">
+   <value>Yards</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitMiles" xml:space="preserve">
+   <value>Miles</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitMicrometers" xml:space="preserve">
+   <value>Micrometers</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitMilimeters" xml:space="preserve">
+   <value>Milimeters</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitCentimeters" xml:space="preserve">
+   <value>Centimeters</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitMeters" xml:space="preserve">
+   <value>Meters</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitKilometers" xml:space="preserve">
+   <value>Kilometers</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitTwips" xml:space="preserve">
+   <value>Twips</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitPoints" xml:space="preserve">
+   <value>Points</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitPixels" xml:space="preserve">
+   <value>Pixels</value>
+  </data>
+  <data name="FileInformationVectorParallelogramUnitDummy" xml:space="preserve">
+   <value>Vector Unit</value>
+  </data>
+  <data name="LoadOptionsVector" xml:space="preserve">
+    <value>Vector</value>
+  </data>
+  <data name="LoadOptionsVectorWidth" xml:space="preserve">
+   <value>&amp;Width:</value>
+  </data>
+  <data name="LoadOptionsVectorHeight" xml:space="preserve">
+   <value>&amp;Height:</value>
+  </data>
+  <data name="LoadOptionsVectorMode" xml:space="preserve">
+   <value>&amp;Mode:</value>
+  </data>
+  <data name="LoadOptionsVectorBitsPerPixel" xml:space="preserve">
+   <value>Bits Per Pi&amp;xel:</value>
+  </data>
+  <data name="LoadOptionsVectorForceBackgroundColor" xml:space="preserve">
+   <value>Force Back&amp;ground Color</value>
+  </data>
+  <data name="LoadOptionsVectorViewModeUseBest" xml:space="preserve">
+   <value>Use Best</value>
+  </data>
+  <data name="LoadOptionsVectorViewModeUseHeight" xml:space="preserve">
+   <value>Use Height</value>
+  </data>
+  <data name="LoadOptionsVectorViewModeUseWidth" xml:space="preserve">
+   <value>Use Width</value>
+  </data>
+  <data name="LoadOptionsVectorViewModeUseWidthAndHeight" xml:space="preserve">
+   <value>Use Width and Height</value>
+  </data>
+   <!-- Vector formats: end -->
+   <data name="FileSaveOptionsPdf17" xml:space="preserve">
+    <value>PDF 1.7</value>
+  </data>
+</root>
